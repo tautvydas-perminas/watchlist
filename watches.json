@@ -41,6 +41,89 @@
     }
   },
   {
+    "id": 4,
+    "brand": "Seiko",
+    "collection": "Presage Style60s",
+    "model": "SRPL71J1",
+    "style": "Vintage",
+    "size": "39,5",
+    "description": "Retro Style60’s su kompaktišku korpusu ir šviečiančiomis rodyklėmis.",
+    "image": "https://www.seikowatches.com/nz-en/-/media/Images/Product--Image/All/Seiko/2025/04/18/21/07/SRPL71J1/SRPL71J1_ima_1_2025.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/srpl71j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL71J1%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPL71J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "39,5 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "130 g"
+    },
+    "pros": [
+      "39,5 mm korpusas ir 46,2 mm ilgis",
+      "Standartinis 20 mm dirželio tvirtinimas"
+    ],
+    "cons": [
+      "Hardlex mažiau atsparus įbrėžimams nei safyras",
+      "41 val. rezervas trumpesnis nei 6R serijos"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 620,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 22,
+    "brand": "Seiko",
+    "collection": "5 Sports × BAMFORD",
+    "model": "SBSA315",
+    "style": "Statement",
+    "size": "42,5",
+    "description": "Ribota 2 025 vnt. BAMFORD serija su mėlynu permatomu ciferblatu ir nailoniniu dirželiu. Kainos orientyras – europinio SRPL95 katalogo kaina; SBSA315 pardavėjų kainos ir prieinamumas gali smarkiai skirtis.",
+    "image": "https://www.seikowatches.com/jp-ja/-/media/Images/Product--Image/All/Seiko/2025/07/08/21/02/SBSA315/SBSA315.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/jp-ja/products/5sports/sbsa315",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SBSA315",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SBSA315",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R36",
+      "Skersmuo": "42,5 mm",
+      "Storis": "13,4 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "93 g"
+    },
+    "pros": [
+      "Išskirtinis BAMFORD dizainas ir dienos / datos rodymas",
+      "Nailoninis dirželis, 93 g svoris ir 10 bar"
+    ],
+    "cons": [
+      "Hardlex ir 13,4 mm storis",
+      "Ribota serija – pasiūla menka, kaina gali viršyti katalogo kainą"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 480,
+      "currency": "EUR",
+      "basis": "Europinio SRPL95 originali gamintojo katalogo kaina; tai nėra SBSA315 pasiūlymas ar dabartinė rinkos kaina.",
+      "label": "SRPL95 ES katalogo orientyras ↗",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl95",
+      "checked": "2026-10-28"
+    }
+  },
+  {
     "id": 10,
     "brand": "Seiko",
     "collection": "Presage GMT",
@@ -246,170 +329,6 @@
     }
   },
   {
-    "id": 4,
-    "brand": "Seiko",
-    "collection": "Presage Style60s",
-    "model": "SRPL71J1",
-    "style": "Vintage",
-    "size": "39,5",
-    "description": "Retro Style60’s su kompaktišku korpusu ir šviečiančiomis rodyklėmis.",
-    "image": "https://www.seikowatches.com/nz-en/-/media/Images/Product--Image/All/Seiko/2025/04/18/21/07/SRPL71J1/SRPL71J1_ima_1_2025.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/srpl71j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL71J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPL71J1",
-    "specs": {
-      "Mechanizmas": "Automatinis · 4R35",
-      "Skersmuo": "39,5 mm",
-      "Storis": "12 mm",
-      "Energija / rezervas": "41 val.",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "5 bar",
-      "Svoris": "130 g"
-    },
-    "pros": [
-      "39,5 mm korpusas ir 46,2 mm ilgis",
-      "Standartinis 20 mm dirželio tvirtinimas"
-    ],
-    "cons": [
-      "Hardlex mažiau atsparus įbrėžimams nei safyras",
-      "41 val. rezervas trumpesnis nei 6R serijos"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 620,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 1,
-    "brand": "King Seiko",
-    "collection": "VANAC",
-    "model": "SLA095",
-    "style": "Statement",
-    "size": "41",
-    "description": "Ryškaus kampuoto dizaino VANAC su odiniu dirželiu.",
-    "image": "https://www.seikowatches.com/es-es/-/media/Images/Product--Image/All/Seiko/2025/10/23/21/05/SLA095J1/SLA095J1_ima_3_2025.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/in-en/products/kingseiko/sla095j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=King%20Seiko%20SLA095%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SLA095",
-    "specs": {
-      "Mechanizmas": "Automatinis · 8L45",
-      "Skersmuo": "41 mm",
-      "Storis": "14,3 mm",
-      "Energija / rezervas": "72 val.",
-      "Stiklas": "Safyras · AR",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "103 g"
-    },
-    "pros": [
-      "72 val. rezervas",
-      "Gamintojo tikslumas −5 / +10 s per parą"
-    ],
-    "cons": [
-      "14,3 mm storis – ryškus ant riešo",
-      "17 mm dirželio tvirtinimas riboja pasirinkimą"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 3300,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/kingseiko/sla095j1",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 2,
-    "brand": "Seiko",
-    "collection": "Astron",
-    "model": "SSJ013",
-    "style": "Modern",
-    "size": "41,2",
-    "description": "Titaninis Astron su GPS laiko ir laiko juostos nustatymu.",
-    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2023/01/31/11/37/SSJ013J1/SSJ013J1_ima_1_2023.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/astron/ssj013j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSJ013%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ013",
-    "specs": {
-      "Mechanizmas": "GPS Solar · 3X62",
-      "Skersmuo": "41,2 mm",
-      "Storis": "12 mm",
-      "Energija / rezervas": "6 mėn. įkrovus",
-      "Stiklas": "Safyras · Super-clear",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "110 g"
-    },
-    "pros": [
-      "GPS sinchronizacija patogi keliaujant",
-      "Lengvas titanas ir saulės įkrovimas"
-    ],
-    "cons": [
-      "Reikia šviesos įkrovimui",
-      "GPS priėmimui reikia tinkamų sąlygų"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 2300,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/astron/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 3,
-    "brand": "Seiko",
-    "collection": "Astron",
-    "model": "SSJ023",
-    "style": "Modern",
-    "size": "42",
-    "description": "Astron su mėlynu ciferblatu ir dviejų sluoksnių lunete.",
-    "image": "https://shop97114.sfstatic.io/upload_dir/shop/Opturaapp/_thumbs/SSJ023J1_1.w1200.webp",
-    "source": "https://www.seikowatches.com/us-en/products/astron/ssj023j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSJ023%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ023",
-    "specs": {
-      "Mechanizmas": "GPS Solar · 3X62",
-      "Skersmuo": "42 mm",
-      "Storis": "12 mm",
-      "Energija / rezervas": "6 mėn. įkrovus",
-      "Stiklas": "Safyras · Super-clear",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "107 g"
-    },
-    "pros": [
-      "GPS laiko juostos nustatymas",
-      "Titaninis korpusas, tik 107 g"
-    ],
-    "cons": [
-      "42 mm skersmuo gali būti didokas",
-      "Saulės įkrovimui reikia šviesos"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 2500,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/astron/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
     "id": 6,
     "brand": "Seiko",
     "collection": "Presage Cocktail Time",
@@ -574,47 +493,6 @@
     }
   },
   {
-    "id": 12,
-    "brand": "Seiko",
-    "collection": "Prospex Alpinist",
-    "model": "SPB507",
-    "style": "Outdoor",
-    "size": "39,5",
-    "description": "Žalias Alpinist su odiniu dirželiu ir vidine kompaso skale.",
-    "image": "https://i.ebayimg.com/images/g/sJQAAeSwo1dpEusQ/s-l400.png",
-    "source": "https://www.seikowatches.com/sg-en/products/prospex/spb507j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB507%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB507",
-    "specs": {
-      "Mechanizmas": "Automatinis · 6R55",
-      "Skersmuo": "39,5 mm",
-      "Storis": "12,7 mm",
-      "Energija / rezervas": "72 val.",
-      "Stiklas": "Safyras · AR, datos lupa",
-      "Atsparumas vandeniui": "20 bar",
-      "Svoris": "88 g"
-    },
-    "pros": [
-      "72 val. rezervas ir safyras",
-      "88 g – lengvesnis už SPB503"
-    ],
-    "cons": [
-      "Odiniam dirželiui reikia apsaugos nuo vandens",
-      "Gamintojo tolerancija −15 / +25 s per parą"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 980,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/prospex/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
     "id": 13,
     "brand": "Seiko",
     "collection": "Prospex Speedtimer",
@@ -656,6 +534,129 @@
     }
   },
   {
+    "id": 1,
+    "brand": "King Seiko",
+    "collection": "VANAC",
+    "model": "SLA095",
+    "style": "Statement",
+    "size": "41",
+    "description": "Ryškaus kampuoto dizaino VANAC su odiniu dirželiu.",
+    "image": "https://www.seikowatches.com/es-es/-/media/Images/Product--Image/All/Seiko/2025/10/23/21/05/SLA095J1/SLA095J1_ima_3_2025.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/in-en/products/kingseiko/sla095j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=King%20Seiko%20SLA095%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SLA095",
+    "specs": {
+      "Mechanizmas": "Automatinis · 8L45",
+      "Skersmuo": "41 mm",
+      "Storis": "14,3 mm",
+      "Energija / rezervas": "72 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "103 g"
+    },
+    "pros": [
+      "72 val. rezervas",
+      "Gamintojo tikslumas −5 / +10 s per parą"
+    ],
+    "cons": [
+      "14,3 mm storis – ryškus ant riešo",
+      "17 mm dirželio tvirtinimas riboja pasirinkimą"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 3300,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/kingseiko/sla095j1",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Seiko",
+    "collection": "Astron",
+    "model": "SSJ013",
+    "style": "Modern",
+    "size": "41,2",
+    "description": "Titaninis Astron su GPS laiko ir laiko juostos nustatymu.",
+    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2023/01/31/11/37/SSJ013J1/SSJ013J1_ima_1_2023.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/sg-en/products/astron/ssj013j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSJ013%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ013",
+    "specs": {
+      "Mechanizmas": "GPS Solar · 3X62",
+      "Skersmuo": "41,2 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "6 mėn. įkrovus",
+      "Stiklas": "Safyras · Super-clear",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "110 g"
+    },
+    "pros": [
+      "GPS sinchronizacija patogi keliaujant",
+      "Lengvas titanas ir saulės įkrovimas"
+    ],
+    "cons": [
+      "Reikia šviesos įkrovimui",
+      "GPS priėmimui reikia tinkamų sąlygų"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 2300,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/astron/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Seiko",
+    "collection": "Astron",
+    "model": "SSJ023",
+    "style": "Modern",
+    "size": "42",
+    "description": "Astron su mėlynu ciferblatu ir dviejų sluoksnių lunete.",
+    "image": "https://shop97114.sfstatic.io/upload_dir/shop/Opturaapp/_thumbs/SSJ023J1_1.w1200.webp",
+    "source": "https://www.seikowatches.com/us-en/products/astron/ssj023j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSJ023%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ023",
+    "specs": {
+      "Mechanizmas": "GPS Solar · 3X62",
+      "Skersmuo": "42 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "6 mėn. įkrovus",
+      "Stiklas": "Safyras · Super-clear",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "107 g"
+    },
+    "pros": [
+      "GPS laiko juostos nustatymas",
+      "Titaninis korpusas, tik 107 g"
+    ],
+    "cons": [
+      "42 mm skersmuo gali būti didokas",
+      "Saulės įkrovimui reikia šviesos"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 2500,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/astron/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
     "id": 14,
     "brand": "Seiko",
     "collection": "Prospex Marinemaster",
@@ -693,88 +694,6 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.seikowatches.com/de-de/products/prospex/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 15,
-    "brand": "Seiko",
-    "collection": "5 Sports Field GMT",
-    "model": "SSK023",
-    "style": "Outdoor",
-    "size": "39,4",
-    "description": "Field stiliaus laikrodis su kontrastinga GMT rodykle ir plienine apyranke.",
-    "image": "https://www.seikowatches.com/au-en/-/media/Images/Product--Image/All/Seiko/2023/11/15/21/12/SSK023K1/SSK023K1.png",
-    "source": "https://www.seikowatches.com/us-en/products/5sports/ssk023",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK023%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK023",
-    "specs": {
-      "Mechanizmas": "Automatinis GMT · 4R34",
-      "Skersmuo": "39,4 mm",
-      "Storis": "13,6 mm",
-      "Energija / rezervas": "41 val.",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "147 g"
-    },
-    "pros": [
-      "Antra laiko juosta ir 10 bar",
-      "39,4 mm skersmuo, šviečiančios rodyklės"
-    ],
-    "cons": [
-      "13,6 mm storis",
-      "Hardlex vietoje safyro"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 470,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/5sports/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 19,
-    "brand": "Tissot",
-    "collection": "Gentleman Powermatic 80",
-    "model": "T127.407.11.041.00",
-    "style": "Everyday",
-    "size": "40",
-    "description": "Mėlynas Gentleman su universaliu kasdieniu dizainu.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw71cff7f4/product-pictures/778fa7b2-de38-441e-bb28-f179037ebb29_T127-407-11-041-00_shadow.png?sm=fit&sw=800&sh=800,gravity=center",
-    "source": "https://www.tissotwatches.com/en-us/T1274071104100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T127.407.11.041.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T127.407.11.041.00",
-    "specs": {
-      "Mechanizmas": "Automatinis · Powermatic 80",
-      "Skersmuo": "40 mm",
-      "Storis": "11,5 mm",
-      "Energija / rezervas": "80 val.",
-      "Stiklas": "Safyras · AR",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "164 g"
-    },
-    "pros": [
-      "80 val. rezervas ir silicio spiralė",
-      "Safyras su AR ir 10 bar"
-    ],
-    "cons": [
-      "164 g svoris",
-      "21 mm tvirtinimas mažiau universalus nei 20 mm"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 925,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1274071104100.html",
       "checked": "2026-10-28"
     }
   }

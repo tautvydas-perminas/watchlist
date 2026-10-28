@@ -56,7 +56,7 @@ function draw() {
       const price = el('div', 'price-block');
       const amount = new Intl.NumberFormat('lt-LT', {style:'currency',currency:'EUR',maximumFractionDigits:0}).format(w.price.amount);
       price.append(el('span','price-label','ORIENTACINĖ KAINA'),el('strong','price-amount','≈ ' + amount));
-      const sourceLink = link('Naujas · gamintojo kaina ↗',w.price.source,'price-source');
+      const sourceLink = link(w.price.label || 'Naujas · gamintojo kaina ↗',w.price.source,'price-source');
       sourceLink.title = w.price.basis;
       price.append(sourceLink,el('span','price-date','Tikrinta ' + w.price.checked));
       heading.append(price);
