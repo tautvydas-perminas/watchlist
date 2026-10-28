@@ -290,40 +290,40 @@
     "id": 8,
     "brand": "Seiko",
     "collection": "Presage Cocktail Time",
-    "model": "SRPE43J1",
+    "model": "SRPB41",
     "style": "Dress",
-    "size": "38,5",
-    "description": "Kompaktiškas Cocktail Time su tamsiai mėlynu tekstūriniu ciferblatu.",
-    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/America/Seiko/presage/SRPE43J1/SRPE43J1.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/srpe43j1",
+    "size": "40,5",
+    "description": "Tamsiai mėlynas Cocktail Time „Blue Moon“ su saulės spindulių rašto ciferblatu ir plienine apyranke.",
+    "image": "https://www.seikowatches.com/de-de/-/media/Images/Product--Image/All/Seiko/2022/02/20/01/55/SRPB41J1/SRPB41J1.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/de-de/products/presage/SRPB41J1",
     "status": "Wishlist",
     "imageVerified": true,
     "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPE43J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPE43J1",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPB41%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPB41",
     "specs": {
       "Mechanizmas": "Automatinis · 4R35",
-      "Skersmuo": "38,5 mm",
+      "Skersmuo": "40,5 mm",
       "Storis": "11,8 mm",
       "Energija / rezervas": "41 val.",
       "Stiklas": "Hardlex",
       "Atsparumas vandeniui": "5 bar",
-      "Svoris": "63 g"
+      "Svoris": "135 g"
     },
     "pros": [
-      "38,5 mm skersmuo ir 63 g svoris",
-      "Greitai keičiamas odinis dirželis"
+      "Plieninė apyrankė praktiška kasdien",
+      "Standartinis 20 mm tvirtinimas leidžia keisti dirželius"
     ],
     "cons": [
-      "Hardlex vietoje safyro",
-      "Odą reikia saugoti nuo vandens"
+      "Hardlex mažiau atsparus įbrėžimams nei safyras",
+      "41 val. rezervas gali neišlaikyti viso savaitgalio"
     ],
     "specsChecked": "2026-10-28",
     "price": {
-      "amount": 460,
+      "amount": 430,
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
+      "source": "https://www.seikowatches.com/de-de/products/presage/SRPB41J1",
       "checked": "2026-10-28"
     }
   },
