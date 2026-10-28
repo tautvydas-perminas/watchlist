@@ -165,6 +165,47 @@
     }
   },
   {
+    "id": 24,
+    "brand": "Orient",
+    "collection": "Mako 40",
+    "model": "RA-AC0Q10N",
+    "style": "Outdoor",
+    "size": "39,9",
+    "description": "Juodas Mako 40 su juodai dengtu plieniniu korpusu, safyru ir guminiu dirželiu. Santūrus narų stilius laisvalaikiui, vasarai ir kelionėms.",
+    "image": "https://i8.amplience.net/i/epsonemear/RA-AC0Q10N-900x900?$orient-pdp-specs$=&qlt=85",
+    "source": "https://www.orientwatch.de/or/de_DE/brands/orient/orient-mako-40/p/RA-AC0Q10N",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Orient%20RA-AC0Q10N",
+    "sourceSearch": "https://www.google.com/search?q=Orient%20RA-AC0Q10N",
+    "specs": {
+      "Mechanizmas": "Automatinis · F6722",
+      "Skersmuo": "39,9 mm",
+      "Storis": "12,8 mm",
+      "Energija / rezervas": "40 val.",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "20 bar / 200 m",
+      "Dirželis": "Guminis · 20 mm"
+    },
+    "pros": [
+      "Safyras ir 200 m atsparumas vandeniui",
+      "Kompaktiškas korpusas ir vandeniui tinkamas guminis dirželis"
+    ],
+    "cons": [
+      "40 val. rezervas trumpesnis nei 72–80 val. modelių",
+      "Juoda korpuso danga gali rodyti įbrėžimus; sportiškas stilius mažiau puošnus"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 409.99,
+      "currency": "EUR",
+      "basis": "Oficiali Orient kaina Vokietijoje",
+      "source": "https://www.orientwatch.de/or/de_DE/brands/orient/orient-mako-40/p/RA-AC0Q10N",
+      "checked": "2026-10-28"
+    }
+  },
+  {
     "id": 13,
     "brand": "Seiko",
     "collection": "Prospex Speedtimer",
