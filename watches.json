@@ -1,5 +1,292 @@
 [
   {
+    "id": 16,
+    "brand": "Tissot",
+    "collection": "PR 100",
+    "model": "T150.410.11.091.00",
+    "style": "Everyday",
+    "size": "40",
+    "description": "Žalias PR 100 – plonas kasdienis kvarcinis laikrodis.",
+    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwb6df4fc1/product-pictures/c4cc9e85-deb9-4621-a788-cea3eeca271c_T150-410-11-091-00_shadow.png?sh=1400&sm=cut&sw=1400",
+    "source": "https://www.tissotwatches.com/en-us/T1504101109100.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.091.00%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.091.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "8,25 mm storis patogus po rankogaliu",
+      "Safyras ir greitai keičiama apyrankė"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Nėra GMT ar chronografo"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 295,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1504101109100.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 10,
+    "brand": "Seiko",
+    "collection": "Presage GMT",
+    "model": "SSK037",
+    "style": "Dress",
+    "size": "40,5",
+    "description": "Cocktail Time su papildoma 24 valandų rodykle antrai laiko juostai.",
+    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2024/04/30/21/16/SSK037J1/SSK037J1.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/ssk037j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK037%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK037",
+    "specs": {
+      "Mechanizmas": "Automatinis GMT · 4R34",
+      "Skersmuo": "40,5 mm",
+      "Storis": "12,8 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "137 g"
+    },
+    "pros": [
+      "GMT rodyklė dviem laiko juostoms",
+      "20 mm dirželio tvirtinimas"
+    ],
+    "cons": [
+      "12,8 mm storis didesnis nei paprasto Cocktail Time",
+      "Hardlex vietoje safyro"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 620,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 20,
+    "brand": "Tissot",
+    "collection": "PR 100 Jungfraubahn",
+    "model": "T150.410.11.031.00",
+    "style": "Mountains",
+    "size": "40",
+    "description": "Sidabrinis PR 100 Jungfraubahn su Alpių motyvu ir graviruotu dangteliu.",
+    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwca4b34d9/product-pictures/9d028d9d-821f-4ce3-9df0-8dff52614a14_T150-410-11-031-00_shadow.png?sh=1400&sm=cut&sw=1400",
+    "source": "https://www.tissotwatches.com/en-gb/T1504101103100.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.031.00%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.031.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "Plonas korpusas, safyras ir 10 bar",
+      "Išskirtinis kalnų motyvas"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Kalnų motyvas mažiau neutralus nei įprastas PR 100"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 345,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1504101103100.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 21,
+    "brand": "Tissot",
+    "collection": "PR 100 Jungfraubahn",
+    "model": "T150.410.11.041.02",
+    "style": "Mountains",
+    "size": "40",
+    "description": "Mėlynas PR 100 Jungfraubahn su kalnų motyvu ir plienine apyranke.",
+    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw7a08f650/product-pictures/cdaeacce-40a6-4c83-934c-015cad2c73ce_T150-410-11-041-02_shadow.png?sh=450&sm=fit&sw=450",
+    "source": "https://www.tissotwatches.com/en-en/T1504101104102.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.041.02%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.041.02",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "Safyras ir 10 bar",
+      "Greitai keičiama apyrankė"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Nėra aukštimačio ar kitų žygių funkcijų"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 345,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1504101104102.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 17,
+    "brand": "Tissot",
+    "collection": "Ballade",
+    "model": "T156.410.11.351.00",
+    "style": "Dress",
+    "size": "40",
+    "description": "Ballade su ledo mėlynumo tekstūriniu ciferblatu ir rievėta lunete.",
+    "image": "https://thewatchstore.ph/cdn/shop/files/DAT-T156_410_11_351_00.jpg?v=1775786000&width=1946",
+    "source": "https://www.tissotwatches.com/en-us/T1564101135100.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T156.410.11.351.00%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T156.410.11.351.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "120 g"
+    },
+    "pros": [
+      "Plonas 8,25 mm korpusas",
+      "Safyras su antirefleksine danga"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Ryškesnė apdaila mažiau santūri kasdienai"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 345,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/fr-fr/T1564101135100.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 18,
+    "brand": "Tissot",
+    "collection": "PRX Powermatic 80",
+    "model": "T137.207.11.351.00",
+    "style": "Integrated",
+    "size": "35",
+    "description": "35 mm PRX su ledo mėlynumo ciferblatu ir integruota plienine apyranke.",
+    "image": "https://www.watch.co.uk/pictures/tissot-t1372071135100-prx-15465320.jpg",
+    "source": "https://www.tissotwatches.com/en-us/T1372071135100.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T137.207.11.351.00%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T137.207.11.351.00",
+    "specs": {
+      "Mechanizmas": "Automatinis · Powermatic 80",
+      "Skersmuo": "35 mm",
+      "Storis": "10,93 mm",
+      "Energija / rezervas": "80 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "104 g"
+    },
+    "pros": [
+      "80 val. rezervas, Nivachron spiralė",
+      "Kompaktiškas 35 mm dydis"
+    ],
+    "cons": [
+      "Integruotas tvirtinimas riboja dirželių pasirinkimą",
+      "Didesniam riešui gali atrodyti mažas"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 775,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1372071135100.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Seiko",
+    "collection": "Presage Style60s",
+    "model": "SRPL71J1",
+    "style": "Vintage",
+    "size": "39,5",
+    "description": "Retro Style60’s su kompaktišku korpusu ir šviečiančiomis rodyklėmis.",
+    "image": "https://www.seikowatches.com/nz-en/-/media/Images/Product--Image/All/Seiko/2025/04/18/21/07/SRPL71J1/SRPL71J1_ima_1_2025.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/srpl71j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL71J1%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPL71J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "39,5 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "130 g"
+    },
+    "pros": [
+      "39,5 mm korpusas ir 46,2 mm ilgis",
+      "Standartinis 20 mm dirželio tvirtinimas"
+    ],
+    "cons": [
+      "Hardlex mažiau atsparus įbrėžimams nei safyras",
+      "41 val. rezervas trumpesnis nei 6R serijos"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 620,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
     "id": 1,
     "brand": "King Seiko",
     "collection": "VANAC",
@@ -123,88 +410,6 @@
     }
   },
   {
-    "id": 4,
-    "brand": "Seiko",
-    "collection": "Presage Style60s",
-    "model": "SRPL71J1",
-    "style": "Vintage",
-    "size": "39,5",
-    "description": "Retro Style60’s su kompaktišku korpusu ir šviečiančiomis rodyklėmis.",
-    "image": "https://www.seikowatches.com/nz-en/-/media/Images/Product--Image/All/Seiko/2025/04/18/21/07/SRPL71J1/SRPL71J1_ima_1_2025.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/srpl71j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL71J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPL71J1",
-    "specs": {
-      "Mechanizmas": "Automatinis · 4R35",
-      "Skersmuo": "39,5 mm",
-      "Storis": "12 mm",
-      "Energija / rezervas": "41 val.",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "5 bar",
-      "Svoris": "130 g"
-    },
-    "pros": [
-      "39,5 mm korpusas ir 46,2 mm ilgis",
-      "Standartinis 20 mm dirželio tvirtinimas"
-    ],
-    "cons": [
-      "Hardlex mažiau atsparus įbrėžimams nei safyras",
-      "41 val. rezervas trumpesnis nei 6R serijos"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 620,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 5,
-    "brand": "Seiko",
-    "collection": "Presage",
-    "model": "SPB165J1",
-    "style": "Dress",
-    "size": "39,3",
-    "description": "Sharp Edged su geometriniu ciferblato raštu ir griežtomis korpuso briaunomis.",
-    "image": "https://www.seikowatches.com/br-pt/-/media/Images/Product--Image/All/Seiko/2022/02/20/00/52/SPB165J1/SPB165J1.png",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/spb165j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB165J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB165J1",
-    "specs": {
-      "Mechanizmas": "Automatinis · 6R35",
-      "Skersmuo": "39,3 mm",
-      "Storis": "11,1 mm",
-      "Energija / rezervas": "70 val.",
-      "Stiklas": "Safyras · AR",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "155 g"
-    },
-    "pros": [
-      "70 val. rezervas ir safyras",
-      "Kieta korpuso danga"
-    ],
-    "cons": [
-      "Gamintojo tolerancija −15 / +25 s per parą",
-      "155 g svoris juntamas ant riešo"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 990,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/fr-fr/products/presage/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
     "id": 6,
     "brand": "Seiko",
     "collection": "Presage Cocktail Time",
@@ -324,88 +529,6 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.seikowatches.com/de-de/products/presage/SRPB41J1",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 9,
-    "brand": "Seiko",
-    "collection": "Presage",
-    "model": "SRP841",
-    "style": "Dress",
-    "size": "33,8",
-    "description": "Mažas Cocktail Time su šviesiai mėlynu ciferblatu ir plienine apyranke.",
-    "image": "https://shop98179.sfstatic.io/upload_dir/shop/Opturaapp/_thumbs/SRP841J1_1.w1200.webp",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/srp841j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRP841%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRP841",
-    "specs": {
-      "Mechanizmas": "Automatinis · 4R35",
-      "Skersmuo": "33,8 mm",
-      "Storis": "11,3 mm",
-      "Energija / rezervas": "41 val.",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "5 bar",
-      "Svoris": "92 g"
-    },
-    "pros": [
-      "33,8 mm korpusas mažesniam riešui",
-      "Automatinis mechanizmas su rankiniu užvedimu"
-    ],
-    "cons": [
-      "Didesniam riešui gali atrodyti per mažas",
-      "17 mm tvirtinimui mažesnis dirželių pasirinkimas"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 410,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 10,
-    "brand": "Seiko",
-    "collection": "Presage GMT",
-    "model": "SSK037",
-    "style": "Dress",
-    "size": "40,5",
-    "description": "Cocktail Time su papildoma 24 valandų rodykle antrai laiko juostai.",
-    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2024/04/30/21/16/SSK037J1/SSK037J1.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/ssk037j1",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK037%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK037",
-    "specs": {
-      "Mechanizmas": "Automatinis GMT · 4R34",
-      "Skersmuo": "40,5 mm",
-      "Storis": "12,8 mm",
-      "Energija / rezervas": "41 val.",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "5 bar",
-      "Svoris": "137 g"
-    },
-    "pros": [
-      "GMT rodyklė dviem laiko juostoms",
-      "20 mm dirželio tvirtinimas"
-    ],
-    "cons": [
-      "12,8 mm storis didesnis nei paprasto Cocktail Time",
-      "Hardlex vietoje safyro"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 620,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
       "checked": "2026-10-28"
     }
   },
@@ -615,129 +738,6 @@
     }
   },
   {
-    "id": 16,
-    "brand": "Tissot",
-    "collection": "PR 100",
-    "model": "T150.410.11.091.00",
-    "style": "Everyday",
-    "size": "40",
-    "description": "Žalias PR 100 – plonas kasdienis kvarcinis laikrodis.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwb6df4fc1/product-pictures/c4cc9e85-deb9-4621-a788-cea3eeca271c_T150-410-11-091-00_shadow.png?sh=1400&sm=cut&sw=1400",
-    "source": "https://www.tissotwatches.com/en-us/T1504101109100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.091.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.091.00",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "122 g"
-    },
-    "pros": [
-      "8,25 mm storis patogus po rankogaliu",
-      "Safyras ir greitai keičiama apyrankė"
-    ],
-    "cons": [
-      "Bateriją reikės keisti",
-      "Nėra GMT ar chronografo"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 295,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1504101109100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 17,
-    "brand": "Tissot",
-    "collection": "Ballade",
-    "model": "T156.410.11.351.00",
-    "style": "Dress",
-    "size": "40",
-    "description": "Ballade su ledo mėlynumo tekstūriniu ciferblatu ir rievėta lunete.",
-    "image": "https://thewatchstore.ph/cdn/shop/files/DAT-T156_410_11_351_00.jpg?v=1775786000&width=1946",
-    "source": "https://www.tissotwatches.com/en-us/T1564101135100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T156.410.11.351.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T156.410.11.351.00",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras · AR",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "120 g"
-    },
-    "pros": [
-      "Plonas 8,25 mm korpusas",
-      "Safyras su antirefleksine danga"
-    ],
-    "cons": [
-      "Bateriją reikės keisti",
-      "Ryškesnė apdaila mažiau santūri kasdienai"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 345,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/fr-fr/T1564101135100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 18,
-    "brand": "Tissot",
-    "collection": "PRX Powermatic 80",
-    "model": "T137.207.11.351.00",
-    "style": "Integrated",
-    "size": "35",
-    "description": "35 mm PRX su ledo mėlynumo ciferblatu ir integruota plienine apyranke.",
-    "image": "https://www.watch.co.uk/pictures/tissot-t1372071135100-prx-15465320.jpg",
-    "source": "https://www.tissotwatches.com/en-us/T1372071135100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T137.207.11.351.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T137.207.11.351.00",
-    "specs": {
-      "Mechanizmas": "Automatinis · Powermatic 80",
-      "Skersmuo": "35 mm",
-      "Storis": "10,93 mm",
-      "Energija / rezervas": "80 val.",
-      "Stiklas": "Safyras · AR",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "104 g"
-    },
-    "pros": [
-      "80 val. rezervas, Nivachron spiralė",
-      "Kompaktiškas 35 mm dydis"
-    ],
-    "cons": [
-      "Integruotas tvirtinimas riboja dirželių pasirinkimą",
-      "Didesniam riešui gali atrodyti mažas"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 775,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1372071135100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
     "id": 19,
     "brand": "Tissot",
     "collection": "Gentleman Powermatic 80",
@@ -775,88 +775,6 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.tissotwatches.com/de-de/T1274071104100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 20,
-    "brand": "Tissot",
-    "collection": "PR 100 Jungfraubahn",
-    "model": "T150.410.11.031.00",
-    "style": "Mountains",
-    "size": "40",
-    "description": "Sidabrinis PR 100 Jungfraubahn su Alpių motyvu ir graviruotu dangteliu.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwca4b34d9/product-pictures/9d028d9d-821f-4ce3-9df0-8dff52614a14_T150-410-11-031-00_shadow.png?sh=1400&sm=cut&sw=1400",
-    "source": "https://www.tissotwatches.com/en-gb/T1504101103100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.031.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.031.00",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "122 g"
-    },
-    "pros": [
-      "Plonas korpusas, safyras ir 10 bar",
-      "Išskirtinis kalnų motyvas"
-    ],
-    "cons": [
-      "Bateriją reikės keisti",
-      "Kalnų motyvas mažiau neutralus nei įprastas PR 100"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 345,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1504101103100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 21,
-    "brand": "Tissot",
-    "collection": "PR 100 Jungfraubahn",
-    "model": "T150.410.11.041.02",
-    "style": "Mountains",
-    "size": "40",
-    "description": "Mėlynas PR 100 Jungfraubahn su kalnų motyvu ir plienine apyranke.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw7a08f650/product-pictures/cdaeacce-40a6-4c83-934c-015cad2c73ce_T150-410-11-041-02_shadow.png?sh=450&sm=fit&sw=450",
-    "source": "https://www.tissotwatches.com/en-en/T1504101104102.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.041.02%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.041.02",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "122 g"
-    },
-    "pros": [
-      "Safyras ir 10 bar",
-      "Greitai keičiama apyrankė"
-    ],
-    "cons": [
-      "Bateriją reikės keisti",
-      "Nėra aukštimačio ar kitų žygių funkcijų"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 345,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1504101104102.html",
       "checked": "2026-10-28"
     }
   }
