@@ -1,0 +1,48 @@
+name: Deploy website to Azure Storage
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: azure-storage-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Prepare website files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m json.tool watches.json > /dev/null
+          mkdir -p "${RUNNER_TEMP}/watchlist-site"
+          cp index.html app.js styles.css watches.json "${RUNNER_TEMP}/watchlist-site/"
+
+      - name: Upload website to Azure Storage
+        shell: bash
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${AZURE_STORAGE_CONNECTION_STRING}" ]]; then
+            echo "::error::Add the AZURE_STORAGE_CONNECTION_STRING repository secret before deploying."
+            exit 1
+          fi
+          az storage blob upload-batch \
+            --destination '$web' \
+            --source "${RUNNER_TEMP}/watchlist-site" \
+            --overwrite true \
+            --content-cache-control "no-cache" \
+            --only-show-errors
