@@ -1,1 +1,35 @@
-<!doctype html><html lang="lt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Watch Collection</title><link rel="stylesheet" href="styles.css"></head><body><header><div class="eyebrow">PERSONAL WATCH JOURNAL</div><h1>My Watch Collection</h1><p>Originalūs laikrodžiai. Tikri modeliai. Viena vieta palyginimui.</p></header><main><div class="tools"><input id="search" placeholder="Ieškoti pagal modelį ar kolekciją…" aria-label="Paieška"><select id="brand"><option value="">Visi gamintojai</option><option>Seiko</option><option>King Seiko</option><option>Tissot</option></select><select id="style"><option value="">Visi stiliai</option></select><span id="count"></span></div><div class="notice">Visiems 21 modeliams parinktos nuotraukų nuorodos. Nuotraukos kraunamos iš išorinių šaltinių, todėl atskiri serveriai gali riboti jų rodymą. Spustelėjus nuotrauką atsidaro modelio nuotraukų paieška.</div><section id="grid" class="grid"></section></main><footer>Duomenys: watches.json · Valdoma per ChatGPT · Nuotraukų teisės priklauso jų savininkams</footer><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#142b27">
+  <title>Mano laikrodžiai · Kolekcijos užrašai</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#grid">Pereiti prie laikrodžių</a>
+  <header>
+    <div class="header-inner">
+      <div class="eyebrow">KOLEKCIJOS UŽRAŠAI <span>SEIKO / TISSOT</span></div>
+      <h1>Mano laikrodžiai<span>.</span></h1>
+      <p>Dizainas patraukia. Detalės padeda pasirinkti.</p>
+      <div class="header-foot">21 modelis <span>Parametrai, privalumai ir kompromisai vienoje vietoje</span></div>
+    </div>
+  </header>
+  <main>
+    <div class="tools" role="search" aria-label="Laikrodžių filtrai">
+      <label class="search-field"><span>PAIEŠKA</span><input id="search" type="search" placeholder="Modelis, kolekcija, mechanizmas…"></label>
+      <label><span>GAMINTOJAS</span><select id="brand"><option value="">Visi gamintojai</option></select></label>
+      <label><span>STILIUS</span><select id="style"><option value="">Visi stiliai</option></select></label>
+      <button id="reset" type="button">Išvalyti</button>
+    </div>
+    <div class="list-heading"><h2>Modelių apžvalga</h2><span id="count" role="status" aria-live="polite">Kraunama…</span></div>
+    <p class="notice">Parametrai pagal gamintojų specifikacijas. Privalumai ir trūkumai – praktinis vertinimas; tinkamumas priklauso nuo riešo ir naudojimo. AR – antirefleksinė danga, EOL – baterijos išsekimo indikatorius.</p>
+    <section id="grid" class="grid" aria-label="Laikrodžių sąrašas"></section>
+    <noscript>Laikrodžių sąrašui peržiūrėti įjunkite JavaScript.</noscript>
+  </main>
+  <footer>Asmeninis laikrodžių žurnalas · Nuotraukos kraunamos iš išorinių šaltinių.<br>Nuotraukų teisės priklauso jų savininkams. Spustelėjus nuotrauką atidaroma modelio nuotraukų paieška.</footer>
+</body>
+</html>

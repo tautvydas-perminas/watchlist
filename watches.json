@@ -5,15 +5,33 @@
     "collection": "VANAC",
     "model": "SLA095",
     "style": "Statement",
-    "size": "",
-    "description": "Angular VANAC design; verify exact dial and strap from manufacturer.",
+    "size": "41",
+    "description": "Ryškaus kampuoto dizaino VANAC su odiniu dirželiu.",
     "image": "https://www.seikowatches.com/es-es/-/media/Images/Product--Image/All/Seiko/2025/10/23/21/05/SLA095J1/SLA095J1_ima_3_2025.png?mh=1200&mw=1200",
     "source": "https://www.seikowatches.com/in-en/products/kingseiko/sla095j1",
     "status": "Wishlist",
     "imageVerified": true,
     "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=King%20Seiko%20SLA095%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SLA095"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SLA095",
+    "specs": {
+      "Mechanizmas": "Automatinis · 8L45",
+      "Skersmuo": "41 mm",
+      "Storis": "14,3 mm",
+      "Energija / rezervas": "72 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "103 g"
+    },
+    "pros": [
+      "72 val. rezervas",
+      "Gamintojo tikslumas −5 / +10 s per parą"
+    ],
+    "cons": [
+      "14,3 mm storis – ryškus ant riešo",
+      "17 mm dirželio tvirtinimas riboja pasirinkimą"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 2,
@@ -21,15 +39,33 @@
     "collection": "Astron",
     "model": "SSJ013",
     "style": "Modern",
-    "size": "41.2",
-    "description": "GPS solar-inspired minimalist Astron design.",
+    "size": "41,2",
+    "description": "Titaninis Astron su GPS laiko ir laiko juostos nustatymu.",
     "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2023/01/31/11/37/SSJ013J1/SSJ013J1_ima_1_2023.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/us-en/products/astron/ssj013",
+    "source": "https://www.seikowatches.com/sg-en/products/astron/ssj013j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSJ013%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ013"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ013",
+    "specs": {
+      "Mechanizmas": "GPS Solar · 3X62",
+      "Skersmuo": "41,2 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "6 mėn. įkrovus",
+      "Stiklas": "Safyras · Super-clear",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "110 g"
+    },
+    "pros": [
+      "GPS sinchronizacija patogi keliaujant",
+      "Lengvas titanas ir saulės įkrovimas"
+    ],
+    "cons": [
+      "Reikia šviesos įkrovimui",
+      "GPS priėmimui reikia tinkamų sąlygų"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 3,
@@ -38,14 +74,32 @@
     "model": "SSJ023",
     "style": "Modern",
     "size": "42",
-    "description": "Contemporary Astron design.",
+    "description": "Astron su mėlynu ciferblatu ir dviejų sluoksnių lunete.",
     "image": "https://shop97114.sfstatic.io/upload_dir/shop/Opturaapp/_thumbs/SSJ023J1_1.w1200.webp",
-    "source": "https://www.seikowatches.com/us-en/products/astron/ssj023",
+    "source": "https://www.seikowatches.com/us-en/products/astron/ssj023j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSJ023%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ023"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSJ023",
+    "specs": {
+      "Mechanizmas": "GPS Solar · 3X62",
+      "Skersmuo": "42 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "6 mėn. įkrovus",
+      "Stiklas": "Safyras · Super-clear",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "107 g"
+    },
+    "pros": [
+      "GPS laiko juostos nustatymas",
+      "Titaninis korpusas, tik 107 g"
+    ],
+    "cons": [
+      "42 mm skersmuo gali būti didokas",
+      "Saulės įkrovimui reikia šviesos"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 4,
@@ -53,15 +107,33 @@
     "collection": "Presage Style60s",
     "model": "SRPL71J1",
     "style": "Vintage",
-    "size": "",
-    "description": "Mint-toned vintage-inspired dial.",
+    "size": "39,5",
+    "description": "Retro Style60’s su kompaktišku korpusu ir šviečiančiomis rodyklėmis.",
     "image": "https://www.seikowatches.com/nz-en/-/media/Images/Product--Image/All/Seiko/2025/04/18/21/07/SRPL71J1/SRPL71J1_ima_1_2025.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/us-en/products/presage/srpl71",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/srpl71j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL71J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPL71J1"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPL71J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "39,5 mm",
+      "Storis": "12 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "130 g"
+    },
+    "pros": [
+      "39,5 mm korpusas ir 46,2 mm ilgis",
+      "Standartinis 20 mm dirželio tvirtinimas"
+    ],
+    "cons": [
+      "Hardlex mažiau atsparus įbrėžimams nei safyras",
+      "41 val. rezervas trumpesnis nei 6R serijos"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 5,
@@ -69,15 +141,33 @@
     "collection": "Presage",
     "model": "SPB165J1",
     "style": "Dress",
-    "size": "39.3",
-    "description": "Sharp Edged textured dial.",
+    "size": "39,3",
+    "description": "Sharp Edged su geometriniu ciferblato raštu ir griežtomis korpuso briaunomis.",
     "image": "https://www.seikowatches.com/br-pt/-/media/Images/Product--Image/All/Seiko/2022/02/20/00/52/SPB165J1/SPB165J1.png",
-    "source": "https://www.seikowatches.com/us-en/products/presage/spb165",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/spb165j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB165J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB165J1"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB165J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 6R35",
+      "Skersmuo": "39,3 mm",
+      "Storis": "11,1 mm",
+      "Energija / rezervas": "70 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "155 g"
+    },
+    "pros": [
+      "70 val. rezervas ir safyras",
+      "Kieta korpuso danga"
+    ],
+    "cons": [
+      "Gamintojo tolerancija −15 / +25 s per parą",
+      "155 g svoris juntamas ant riešo"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 6,
@@ -85,15 +175,33 @@
     "collection": "Presage Cocktail Time",
     "model": "SRPB43J1",
     "style": "Dress",
-    "size": "",
-    "description": "Sidabrinis saulės spindulių rašto Cocktail Time ciferblatas su tamsiu odiniu dirželiu.",
+    "size": "40,5",
+    "description": "Šviesus Cocktail Time su saulės spindulių rašto ciferblatu ir odiniu dirželiu.",
     "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/America/Seiko/presage/SRPB43J1/SRPB43J1.png?h=480&w=480",
-    "source": "https://www.seikowatches.com/us-en/products/presage/srpb43",
+    "source": "https://www.seikowatches.com/us-en/products/presage/srpb43j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPB43J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPB43J1"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPB43J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "40,5 mm",
+      "Storis": "11,8 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "70 g"
+    },
+    "pros": [
+      "Lengvas – 70 g",
+      "Mechanizmas matomas pro galinį dangtelį"
+    ],
+    "cons": [
+      "Hardlex lengviau subraižyti nei safyrą",
+      "Odiniam dirželiui nepatinka drėgmė"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 7,
@@ -101,15 +209,33 @@
     "collection": "Presage Cocktail Time",
     "model": "SRPE19J1",
     "style": "Dress",
-    "size": "",
-    "description": "Light dial Cocktail Time.",
+    "size": "40,5",
+    "description": "Šviesiai mėlynas Cocktail Time su plienine apyranke.",
     "image": "https://www.seikowatches.com/id-id/-/media/Images/Product--Image/All/Seiko/2022/02/20/02/21/SRPE19J1/SRPE19J1_ima_1_2020.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/us-en/products/presage/srpe19",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/srpe19j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPE19J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPE19J1"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPE19J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "40,5 mm",
+      "Storis": "11,8 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "135 g"
+    },
+    "pros": [
+      "Plieninė apyrankė praktiška kasdien",
+      "Standartinis 20 mm tvirtinimas"
+    ],
+    "cons": [
+      "41 val. rezervas gali neišlaikyti savaitgalio",
+      "Hardlex mažiau atsparus įbrėžimams"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 8,
@@ -117,15 +243,33 @@
     "collection": "Presage Cocktail Time",
     "model": "SRPE43J1",
     "style": "Dress",
-    "size": "",
-    "description": "Tamsiai mėlynas tekstūruotas Cocktail Time ciferblatas su odiniu dirželiu.",
+    "size": "38,5",
+    "description": "Kompaktiškas Cocktail Time su tamsiai mėlynu tekstūriniu ciferblatu.",
     "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/America/Seiko/presage/SRPE43J1/SRPE43J1.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/us-en/products/presage/srpe43",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/srpe43j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPE43J1%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPE43J1"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRPE43J1",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "38,5 mm",
+      "Storis": "11,8 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "63 g"
+    },
+    "pros": [
+      "38,5 mm skersmuo ir 63 g svoris",
+      "Greitai keičiamas odinis dirželis"
+    ],
+    "cons": [
+      "Hardlex vietoje safyro",
+      "Odą reikia saugoti nuo vandens"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 9,
@@ -133,15 +277,33 @@
     "collection": "Presage",
     "model": "SRP841",
     "style": "Dress",
-    "size": "34",
-    "description": "Kompaktiškas 34 mm Presage Cocktail Time modelis su šviesiai mėlynu ciferblatu.",
+    "size": "33,8",
+    "description": "Mažas Cocktail Time su šviesiai mėlynu ciferblatu ir plienine apyranke.",
     "image": "https://shop98179.sfstatic.io/upload_dir/shop/Opturaapp/_thumbs/SRP841J1_1.w1200.webp",
-    "source": "https://www.seikowatches.com/us-en/products/presage/srp841",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/srp841j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRP841%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRP841"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SRP841",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35",
+      "Skersmuo": "33,8 mm",
+      "Storis": "11,3 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "92 g"
+    },
+    "pros": [
+      "33,8 mm korpusas mažesniam riešui",
+      "Automatinis mechanizmas su rankiniu užvedimu"
+    ],
+    "cons": [
+      "Didesniam riešui gali atrodyti per mažas",
+      "17 mm tvirtinimui mažesnis dirželių pasirinkimas"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 10,
@@ -149,15 +311,33 @@
     "collection": "Presage GMT",
     "model": "SSK037",
     "style": "Dress",
-    "size": "",
-    "description": "GMT complication.",
+    "size": "40,5",
+    "description": "Cocktail Time su papildoma 24 valandų rodykle antrai laiko juostai.",
     "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2024/04/30/21/16/SSK037J1/SSK037J1.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/us-en/products/presage/ssk037",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/ssk037j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK037%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK037"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK037",
+    "specs": {
+      "Mechanizmas": "Automatinis GMT · 4R34",
+      "Skersmuo": "40,5 mm",
+      "Storis": "12,8 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "137 g"
+    },
+    "pros": [
+      "GMT rodyklė dviem laiko juostoms",
+      "20 mm dirželio tvirtinimas"
+    ],
+    "cons": [
+      "12,8 mm storis didesnis nei paprasto Cocktail Time",
+      "Hardlex vietoje safyro"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 11,
@@ -165,15 +345,33 @@
     "collection": "Prospex Alpinist",
     "model": "SPB503",
     "style": "Outdoor",
-    "size": "39.5",
-    "description": "Turquoise Alpinist with compass bezel.",
+    "size": "39,5",
+    "description": "Alpinist su vidine kompaso skale ir plienine apyranke.",
     "image": "https://prestigetimepiececenter.com/cdn/shop/files/SPB503J1_ima_3_2025_693cc18f-b5a1-4dbb-a718-ee1ad0f88f69_1200x1200.png?v=1764492626",
-    "source": "https://www.seikowatches.com/us-en/products/prospex/spb503",
+    "source": "https://www.seikowatches.com/sg-en/products/prospex/spb503j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB503%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB503"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB503",
+    "specs": {
+      "Mechanizmas": "Automatinis · 6R55",
+      "Skersmuo": "39,5 mm",
+      "Storis": "12,7 mm",
+      "Energija / rezervas": "72 val.",
+      "Stiklas": "Safyras · AR, datos lupa",
+      "Atsparumas vandeniui": "20 bar",
+      "Svoris": "147 g"
+    },
+    "pros": [
+      "72 val. rezervas",
+      "20 bar, įsukama karūnėlė ir safyras"
+    ],
+    "cons": [
+      "Gamintojo tolerancija −15 / +25 s per parą",
+      "Kompaso skalė ir datos lupa vizualiai apkrauna ciferblatą"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 12,
@@ -181,15 +379,33 @@
     "collection": "Prospex Alpinist",
     "model": "SPB507",
     "style": "Outdoor",
-    "size": "39.5",
-    "description": "Green Alpinist, leather strap, mountain-themed caseback.",
+    "size": "39,5",
+    "description": "Žalias Alpinist su odiniu dirželiu ir vidine kompaso skale.",
     "image": "https://i.ebayimg.com/images/g/sJQAAeSwo1dpEusQ/s-l400.png",
-    "source": "https://www.seikowatches.com/us-en/products/prospex/spb507",
+    "source": "https://www.seikowatches.com/sg-en/products/prospex/spb507j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB507%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB507"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SPB507",
+    "specs": {
+      "Mechanizmas": "Automatinis · 6R55",
+      "Skersmuo": "39,5 mm",
+      "Storis": "12,7 mm",
+      "Energija / rezervas": "72 val.",
+      "Stiklas": "Safyras · AR, datos lupa",
+      "Atsparumas vandeniui": "20 bar",
+      "Svoris": "88 g"
+    },
+    "pros": [
+      "72 val. rezervas ir safyras",
+      "88 g – lengvesnis už SPB503"
+    ],
+    "cons": [
+      "Odiniam dirželiui reikia apsaugos nuo vandens",
+      "Gamintojo tolerancija −15 / +25 s per parą"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 13,
@@ -197,31 +413,67 @@
     "collection": "Prospex Speedtimer",
     "model": "SSC943",
     "style": "Chronograph",
-    "size": "41.4",
-    "description": "Solar chronograph.",
+    "size": "41,4",
+    "description": "Speedtimer su saulės energija ir iki 60 minučių chronografu.",
     "image": "https://www.seikowatches.com/ph-en/-/media/Images/Product--Image/All/Seiko/2024/04/19/21/40/SSC943P1/SSC943P1_03.jpg?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/us-en/products/prospex/ssc943",
+    "source": "https://www.seikowatches.com/sg-en/products/prospex/ssc943",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSC943%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSC943"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSC943",
+    "specs": {
+      "Mechanizmas": "Solar chronografas · V192",
+      "Skersmuo": "41,4 mm",
+      "Storis": "13 mm",
+      "Energija / rezervas": "6 mėn. įkrovus",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "89 g"
+    },
+    "pros": [
+      "Saulės įkrovimas, ±15 s per mėnesį",
+      "Safyras ir 10 bar"
+    ],
+    "cons": [
+      "13 mm storio korpusas",
+      "21 mm tvirtinimas mažiau universalus nei 20 mm"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 14,
     "brand": "Seiko",
-    "collection": "Premium",
+    "collection": "Prospex Marinemaster",
     "model": "SJE117",
-    "style": "Dress",
-    "size": "39.5",
-    "description": "Aspirational premium model.",
+    "style": "Diver",
+    "size": "39,5",
+    "description": "Marinemaster 1965 Heritage – kompaktiškas mechaninis narų laikrodis.",
     "image": "https://shop.seikoboutique.com.ph/cdn/shop/files/SJE117J1_01_1x1_c18aa203-dcd0-4060-b1c7-0e4a5b037975_900x.jpg?v=1748316246",
-    "source": "https://www.seikowatches.com/us-en/products/presage/sje117",
+    "source": "https://www.seikowatches.com/uk-en/products/prospex/sje117j1",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SJE117%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SJE117"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SJE117",
+    "specs": {
+      "Mechanizmas": "Automatinis · 6L37",
+      "Skersmuo": "39,5 mm",
+      "Storis": "12,3 mm",
+      "Energija / rezervas": "45 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "200 m Diver’s",
+      "Svoris": "—"
+    },
+    "pros": [
+      "200 m narų specifikacija, įsukama karūnėlė",
+      "28 800 virpesių/val. mechanizmas"
+    ],
+    "cons": [
+      "45 val. rezervas trumpesnis nei 6R55",
+      "Gamintojo tolerancija −10 / +15 s per parą"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 15,
@@ -229,15 +481,33 @@
     "collection": "5 Sports Field GMT",
     "model": "SSK023",
     "style": "Outdoor",
-    "size": "39.4",
-    "description": "Black field watch with GMT hand.",
+    "size": "39,4",
+    "description": "Field stiliaus laikrodis su kontrastinga GMT rodykle ir plienine apyranke.",
     "image": "https://www.seikowatches.com/au-en/-/media/Images/Product--Image/All/Seiko/2023/11/15/21/12/SSK023K1/SSK023K1.png",
     "source": "https://www.seikowatches.com/us-en/products/5sports/ssk023",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK023%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK023"
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK023",
+    "specs": {
+      "Mechanizmas": "Automatinis GMT · 4R34",
+      "Skersmuo": "39,4 mm",
+      "Storis": "13,6 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "147 g"
+    },
+    "pros": [
+      "Antra laiko juosta ir 10 bar",
+      "39,4 mm skersmuo, šviečiančios rodyklės"
+    ],
+    "cons": [
+      "13,6 mm storis",
+      "Hardlex vietoje safyro"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 16,
@@ -246,14 +516,32 @@
     "model": "T150.410.11.091.00",
     "style": "Everyday",
     "size": "40",
-    "description": "Green dial quartz.",
+    "description": "Žalias PR 100 – plonas kasdienis kvarcinis laikrodis.",
     "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwb6df4fc1/product-pictures/c4cc9e85-deb9-4621-a788-cea3eeca271c_T150-410-11-091-00_shadow.png?sh=1400&sm=cut&sw=1400",
     "source": "https://www.tissotwatches.com/en-us/T1504101109100.html",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.091.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.091.00"
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.091.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "8,25 mm storis patogus po rankogaliu",
+      "Safyras ir greitai keičiama apyrankė"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Nėra GMT ar chronografo"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 17,
@@ -262,14 +550,32 @@
     "model": "T156.410.11.351.00",
     "style": "Dress",
     "size": "40",
-    "description": "Elegant blue dial.",
+    "description": "Ballade su ledo mėlynumo tekstūriniu ciferblatu ir rievėta lunete.",
     "image": "https://thewatchstore.ph/cdn/shop/files/DAT-T156_410_11_351_00.jpg?v=1775786000&width=1946",
     "source": "https://www.tissotwatches.com/en-us/T1564101135100.html",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T156.410.11.351.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T156.410.11.351.00"
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T156.410.11.351.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "120 g"
+    },
+    "pros": [
+      "Plonas 8,25 mm korpusas",
+      "Safyras su antirefleksine danga"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Ryškesnė apdaila mažiau santūri kasdienai"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 18,
@@ -278,14 +584,32 @@
     "model": "T137.207.11.351.00",
     "style": "Integrated",
     "size": "35",
-    "description": "Ice-blue PRX; 40 mm alternative under consideration.",
+    "description": "35 mm PRX su ledo mėlynumo ciferblatu ir integruota plienine apyranke.",
     "image": "https://www.watch.co.uk/pictures/tissot-t1372071135100-prx-15465320.jpg",
     "source": "https://www.tissotwatches.com/en-us/T1372071135100.html",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T137.207.11.351.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T137.207.11.351.00"
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T137.207.11.351.00",
+    "specs": {
+      "Mechanizmas": "Automatinis · Powermatic 80",
+      "Skersmuo": "35 mm",
+      "Storis": "10,93 mm",
+      "Energija / rezervas": "80 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "104 g"
+    },
+    "pros": [
+      "80 val. rezervas, Nivachron spiralė",
+      "Kompaktiškas 35 mm dydis"
+    ],
+    "cons": [
+      "Integruotas tvirtinimas riboja dirželių pasirinkimą",
+      "Didesniam riešui gali atrodyti mažas"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 19,
@@ -294,14 +618,32 @@
     "model": "T127.407.11.041.00",
     "style": "Everyday",
     "size": "40",
-    "description": "Blue dial automatic.",
+    "description": "Mėlynas Gentleman su universaliu kasdieniu dizainu.",
     "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw71cff7f4/product-pictures/778fa7b2-de38-441e-bb28-f179037ebb29_T127-407-11-041-00_shadow.png?sm=fit&sw=800&sh=800,gravity=center",
     "source": "https://www.tissotwatches.com/en-us/T1274071104100.html",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T127.407.11.041.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T127.407.11.041.00"
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T127.407.11.041.00",
+    "specs": {
+      "Mechanizmas": "Automatinis · Powermatic 80",
+      "Skersmuo": "40 mm",
+      "Storis": "11,5 mm",
+      "Energija / rezervas": "80 val.",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "164 g"
+    },
+    "pros": [
+      "80 val. rezervas ir silicio spiralė",
+      "Safyras su AR ir 10 bar"
+    ],
+    "cons": [
+      "164 g svoris",
+      "21 mm tvirtinimas mažiau universalus nei 20 mm"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 20,
@@ -310,14 +652,32 @@
     "model": "T150.410.11.031.00",
     "style": "Mountains",
     "size": "40",
-    "description": "Silver mountain-themed edition.",
+    "description": "Sidabrinis PR 100 Jungfraubahn su Alpių motyvu ir graviruotu dangteliu.",
     "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwca4b34d9/product-pictures/9d028d9d-821f-4ce3-9df0-8dff52614a14_T150-410-11-031-00_shadow.png?sh=1400&sm=cut&sw=1400",
-    "source": "https://www.tissotwatches.com/en-us/T1504101103100.html",
+    "source": "https://www.tissotwatches.com/en-gb/T1504101103100.html",
     "status": "Wishlist",
     "imageVerified": true,
-    "sourceVerified": false,
+    "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.031.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.031.00"
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.031.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "Plonas korpusas, safyras ir 10 bar",
+      "Išskirtinis kalnų motyvas"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Kalnų motyvas mažiau neutralus nei įprastas PR 100"
+    ],
+    "specsChecked": "2026-10-28"
   },
   {
     "id": 21,
@@ -326,13 +686,31 @@
     "model": "T150.410.11.041.02",
     "style": "Mountains",
     "size": "40",
-    "description": "Blue mountain-themed edition.",
+    "description": "Mėlynas PR 100 Jungfraubahn su kalnų motyvu ir plienine apyranke.",
     "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw7a08f650/product-pictures/cdaeacce-40a6-4c83-934c-015cad2c73ce_T150-410-11-041-02_shadow.png?sh=450&sm=fit&sw=450",
     "source": "https://www.tissotwatches.com/en-en/T1504101104102.html",
     "status": "Wishlist",
     "imageVerified": true,
     "sourceVerified": true,
     "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.041.02%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.041.02"
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.041.02",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "Safyras ir 10 bar",
+      "Greitai keičiama apyrankė"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Nėra aukštimačio ar kitų žygių funkcijų"
+    ],
+    "specsChecked": "2026-10-28"
   }
 ]

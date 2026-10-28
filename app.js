@@ -1,1 +1,81 @@
-let watches=[];const grid=document.querySelector('#grid'),search=document.querySelector('#search'),brand=document.querySelector('#brand'),style=document.querySelector('#style');function draw(){const q=search.value.toLowerCase();const filtered=watches.filter(w=>(!brand.value||w.brand===brand.value)&&(!style.value||w.style===style.value)&&[w.model,w.brand,w.collection,w.description].join(' ').toLowerCase().includes(q));document.querySelector('#count').textContent=`${filtered.length} / ${watches.length}`;grid.replaceChildren();for(const w of filtered){const card=document.createElement('article');card.className='card';const photo=document.createElement('a');photo.className='photo';photo.href=w.imageSearch;photo.target='_blank';photo.rel='noopener noreferrer';photo.title='Rasti tikras šio modelio nuotraukas';const placeholder=document.createElement('div');placeholder.className='missing';placeholder.textContent='Peržiūrėti tikras nuotraukas ↗';if(w.image){const img=document.createElement('img');img.src=w.image;img.alt=w.brand+' '+w.model;img.loading='lazy';img.referrerPolicy='no-referrer';img.onerror=()=>{img.remove();photo.append(placeholder)};photo.append(img)}else{photo.append(placeholder)};const info=document.createElement('div');info.className='info';const meta=document.createElement('div');meta.className='meta';meta.textContent=w.brand+' · '+w.style;const title=document.createElement('h2');title.textContent=w.collection;const ref=document.createElement('div');ref.className='ref';ref.textContent=w.model+(w.size?' · '+w.size+' mm':'');const desc=document.createElement('p');desc.className='desc';desc.textContent=w.description;const bottom=document.createElement('div');bottom.className='bottom';const pill=document.createElement('span');pill.className='pill';pill.textContent=w.status;const link=document.createElement('a');link.href=w.sourceVerified?w.source:w.sourceSearch;link.target='_blank';link.rel='noopener noreferrer';link.textContent=w.sourceVerified?'Patvirtintas gamintojo puslapis ↗':'Rasti gamintojo puslapį ↗';bottom.append(pill,link);info.append(meta,title,ref,desc,bottom);card.append(photo,info);grid.append(card)}}fetch('watches.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{watches=data;[...new Set(data.map(w=>w.style))].sort().forEach(s=>style.add(new Option(s,s)));draw()}).catch(()=>{grid.textContent='Nepavyko įkelti watches.json. Paleiskite svetainę per HTTP serverį.'});[search,brand,style].forEach(el=>el.addEventListener('input',draw));
+const grid = document.querySelector('#grid');
+const search = document.querySelector('#search');
+const brand = document.querySelector('#brand');
+const style = document.querySelector('#style');
+const labels = {Statement:'Išraiškingas',Modern:'Modernus',Vintage:'Retro',Dress:'Klasikinis',Outdoor:'Laisvalaikis',Chronograph:'Chronografas',Integrated:'Integruota apyrankė',Everyday:'Kasdienis',Mountains:'Kalnai',Diver:'Narų'};
+let watches = [];
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+function link(text, href, className) {
+  const node = el('a', className, text);
+  node.href = href; node.target = '_blank'; node.rel = 'noopener noreferrer';
+  return node;
+}
+function assessment(title, items, className) {
+  const section = el('section', className);
+  section.append(el('h3', '', title));
+  const list = el('ul');
+  for (const item of items || []) list.append(el('li', '', item));
+  section.append(list);
+  return section;
+}
+function draw() {
+  const q = search.value.trim().toLocaleLowerCase('lt');
+  const filtered = watches.filter(w => (!brand.value || w.brand === brand.value) &&
+    (!style.value || w.style === style.value) &&
+    [w.model,w.brand,w.collection,w.description,...Object.values(w.specs || {})].join(' ').toLocaleLowerCase('lt').includes(q));
+  document.querySelector('#count').textContent = filtered.length + ' / ' + watches.length + ' laikrodžių';
+  grid.replaceChildren();
+  for (const w of filtered) {
+    const card = el('article', 'card');
+    const titleId = 'watch-' + w.id;
+    card.setAttribute('aria-labelledby', titleId);
+    const photo = link('', w.imageSearch, 'photo');
+    photo.setAttribute('aria-label', w.brand + ' ' + w.model + ' nuotraukų paieška');
+    const placeholder = el('span', 'missing', 'Rasti modelio nuotraukas ↗');
+    if (w.image) {
+      const img = el('img');
+      img.src = w.image; img.alt = w.brand + ' ' + w.model;
+      img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+      img.addEventListener('error', () => photo.replaceChildren(placeholder), {once:true});
+      photo.append(img);
+    } else photo.append(placeholder);
+    const info = el('div', 'info');
+    const top = el('div','card-top');
+    top.append(el('span','meta',w.brand + ' / ' + (labels[w.style] || w.style)),el('span','pill','Norų sąrašas'));
+    const title = el('h2','',w.collection); title.id = titleId;
+    info.append(top,title,el('p','ref',w.model),el('p','desc',w.description));
+    const specs = el('dl','specs');
+    for (const [key,value] of Object.entries(w.specs || {})) {
+      const pair = el('div','spec');
+      pair.append(el('dt','',key),el('dd','',value === '—' ? 'Nenurodytas' : value));
+      specs.append(pair);
+    }
+    info.append(specs);
+    const verdict = el('div','verdict');
+    verdict.append(assessment('Privalumai',w.pros,'pros'),assessment('Trūkumai',w.cons,'cons'));
+    info.append(verdict);
+    const bottom = el('div','bottom');
+    bottom.append(link('Gamintojo specifikacijos ↗',w.source),el('span','checked','Tikrinta ' + w.specsChecked));
+    info.append(bottom); card.append(photo,info); grid.append(card);
+  }
+  if (!filtered.length) grid.append(el('p','empty','Atitinkančių laikrodžių nerasta. Pakeiskite paiešką arba filtrus.'));
+}
+fetch('watches.json').then(r => {
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.json();
+}).then(data => {
+  watches = data;
+  for (const value of [...new Set(data.map(w => w.brand))].sort()) brand.add(new Option(value,value));
+  for (const value of [...new Set(data.map(w => w.style))].sort((a,b) => (labels[a] || a).localeCompare(labels[b] || b,'lt'))) style.add(new Option(labels[value] || value,value));
+  draw();
+}).catch(() => {
+  grid.replaceChildren(el('p','empty','Nepavyko įkelti laikrodžių. Atnaujinkite puslapį arba bandykite vėliau.'));
+  document.querySelector('#count').textContent = 'Įkėlimo klaida';
+});
+for (const control of [search,brand,style]) control.addEventListener('input',draw);
+document.querySelector('#reset').addEventListener('click',() => {search.value='';brand.value='';style.value='';draw();search.focus();});
