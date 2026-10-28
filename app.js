@@ -46,6 +46,9 @@ function draw() {
     } else photo.append(placeholder);
     const info = el('div', 'info');
     const top = el('div','card-top');
+    const number = el('span', 'watch-number', String(watches.indexOf(w) + 1).padStart(2, '0'));
+    number.setAttribute('aria-label', 'Vieta sąraše: ' + (watches.indexOf(w) + 1));
+    top.append(number);
     top.append(el('span','meta',w.brand + ' / ' + (labels[w.style] || w.style)),el('span','pill','Norų sąrašas'));
     const title = el('h2','',w.collection); title.id = titleId;
     const heading = el('div', 'watch-heading');

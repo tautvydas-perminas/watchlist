@@ -36,3 +36,5 @@ footer{text-align:center;padding:24px 20px 40px;font-size:11px;color:var(--muted
 .price-amount{font-size:clamp(28px,3vw,38px);line-height:1.25;letter-spacing:-1px;font-variant-numeric:tabular-nums;white-space:nowrap;color:#193f32}
 .price-source{font-size:10px;text-decoration:none;margin-top:3px}.price-date{font-size:9px;color:#849087;margin-top:2px}
 @media(max-width:850px){.watch-heading{flex-wrap:wrap;gap:14px}.price-block{align-items:flex-start;border-left:0;padding:0}.price-amount{font-size:32px}}
+
+.watch-number{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:32px;padding:0 7px;background:#193f32;color:#fff;border-radius:6px;font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}.card-top .meta{flex:1}
