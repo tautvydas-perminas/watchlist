@@ -48,7 +48,20 @@ function draw() {
     const top = el('div','card-top');
     top.append(el('span','meta',w.brand + ' / ' + (labels[w.style] || w.style)),el('span','pill','Norų sąrašas'));
     const title = el('h2','',w.collection); title.id = titleId;
-    info.append(top,title,el('p','ref',w.model),el('p','desc',w.description));
+    const heading = el('div', 'watch-heading');
+    const identity = el('div', 'watch-identity');
+    identity.append(title, el('p','ref',w.model));
+    heading.append(identity);
+    if (w.price && Number.isFinite(w.price.amount)) {
+      const price = el('div', 'price-block');
+      const amount = new Intl.NumberFormat('lt-LT', {style:'currency',currency:'EUR',maximumFractionDigits:0}).format(w.price.amount);
+      price.append(el('span','price-label','ORIENTACINĖ KAINA'),el('strong','price-amount','≈ ' + amount));
+      const sourceLink = link('Naujas · gamintojo kaina ↗',w.price.source,'price-source');
+      sourceLink.title = w.price.basis;
+      price.append(sourceLink,el('span','price-date','Tikrinta ' + w.price.checked));
+      heading.append(price);
+    }
+    info.append(top,heading,el('p','desc',w.description));
     const specs = el('dl','specs');
     for (const [key,value] of Object.entries(w.specs || {})) {
       const pair = el('div','spec');
