@@ -124,125 +124,43 @@
     }
   },
   {
-    "id": 10,
+    "id": 13,
     "brand": "Seiko",
-    "collection": "Presage GMT",
-    "model": "SSK037",
-    "style": "Dress",
-    "size": "40,5",
-    "description": "Cocktail Time su papildoma 24 valandų rodykle antrai laiko juostai.",
-    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2024/04/30/21/16/SSK037J1/SSK037J1.png?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/presage/ssk037j1",
+    "collection": "Prospex Speedtimer",
+    "model": "SSC943",
+    "style": "Chronograph",
+    "size": "41,4",
+    "description": "Speedtimer su saulės energija ir iki 60 minučių chronografu.",
+    "image": "https://www.seikowatches.com/ph-en/-/media/Images/Product--Image/All/Seiko/2024/04/19/21/40/SSC943P1/SSC943P1_03.jpg?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/sg-en/products/prospex/ssc943",
     "status": "Wishlist",
     "imageVerified": true,
     "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK037%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK037",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSC943%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSC943",
     "specs": {
-      "Mechanizmas": "Automatinis GMT · 4R34",
-      "Skersmuo": "40,5 mm",
-      "Storis": "12,8 mm",
-      "Energija / rezervas": "41 val.",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "5 bar",
-      "Svoris": "137 g"
-    },
-    "pros": [
-      "GMT rodyklė dviem laiko juostoms",
-      "20 mm dirželio tvirtinimas"
-    ],
-    "cons": [
-      "12,8 mm storis didesnis nei paprasto Cocktail Time",
-      "Hardlex vietoje safyro"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 620,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 20,
-    "brand": "Tissot",
-    "collection": "PR 100 Jungfraubahn",
-    "model": "T150.410.11.031.00",
-    "style": "Mountains",
-    "size": "40",
-    "description": "Sidabrinis PR 100 Jungfraubahn su Alpių motyvu ir graviruotu dangteliu.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwca4b34d9/product-pictures/9d028d9d-821f-4ce3-9df0-8dff52614a14_T150-410-11-031-00_shadow.png?sh=1400&sm=cut&sw=1400",
-    "source": "https://www.tissotwatches.com/en-gb/T1504101103100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.031.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.031.00",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras",
+      "Mechanizmas": "Solar chronografas · V192",
+      "Skersmuo": "41,4 mm",
+      "Storis": "13 mm",
+      "Energija / rezervas": "6 mėn. įkrovus",
+      "Stiklas": "Safyras · AR",
       "Atsparumas vandeniui": "10 bar",
-      "Svoris": "122 g"
+      "Svoris": "89 g"
     },
     "pros": [
-      "Plonas korpusas, safyras ir 10 bar",
-      "Išskirtinis kalnų motyvas"
+      "Saulės įkrovimas, ±15 s per mėnesį",
+      "Safyras ir 10 bar"
     ],
     "cons": [
-      "Bateriją reikės keisti",
-      "Kalnų motyvas mažiau neutralus nei įprastas PR 100"
+      "13 mm storio korpusas",
+      "21 mm tvirtinimas mažiau universalus nei 20 mm"
     ],
     "specsChecked": "2026-10-28",
     "price": {
-      "amount": 345,
+      "amount": 750,
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1504101103100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 21,
-    "brand": "Tissot",
-    "collection": "PR 100 Jungfraubahn",
-    "model": "T150.410.11.041.02",
-    "style": "Mountains",
-    "size": "40",
-    "description": "Mėlynas PR 100 Jungfraubahn su kalnų motyvu ir plienine apyranke.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw7a08f650/product-pictures/cdaeacce-40a6-4c83-934c-015cad2c73ce_T150-410-11-041-02_shadow.png?sh=450&sm=fit&sw=450",
-    "source": "https://www.tissotwatches.com/en-en/T1504101104102.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.041.02%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.041.02",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "122 g"
-    },
-    "pros": [
-      "Safyras ir 10 bar",
-      "Greitai keičiama apyrankė"
-    ],
-    "cons": [
-      "Bateriją reikės keisti",
-      "Nėra aukštimačio ar kitų žygių funkcijų"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 345,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1504101104102.html",
+      "source": "https://www.seikowatches.com/de-de/products/prospex/lineup",
       "checked": "2026-10-28"
     }
   },
@@ -325,6 +243,88 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.tissotwatches.com/de-de/T1372071135100.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 20,
+    "brand": "Tissot",
+    "collection": "PR 100 Jungfraubahn",
+    "model": "T150.410.11.031.00",
+    "style": "Mountains",
+    "size": "40",
+    "description": "Sidabrinis PR 100 Jungfraubahn su Alpių motyvu ir graviruotu dangteliu.",
+    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwca4b34d9/product-pictures/9d028d9d-821f-4ce3-9df0-8dff52614a14_T150-410-11-031-00_shadow.png?sh=1400&sm=cut&sw=1400",
+    "source": "https://www.tissotwatches.com/en-gb/T1504101103100.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.031.00%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.031.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "Plonas korpusas, safyras ir 10 bar",
+      "Išskirtinis kalnų motyvas"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Kalnų motyvas mažiau neutralus nei įprastas PR 100"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 345,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1504101103100.html",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 21,
+    "brand": "Tissot",
+    "collection": "PR 100 Jungfraubahn",
+    "model": "T150.410.11.041.02",
+    "style": "Mountains",
+    "size": "40",
+    "description": "Mėlynas PR 100 Jungfraubahn su kalnų motyvu ir plienine apyranke.",
+    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw7a08f650/product-pictures/cdaeacce-40a6-4c83-934c-015cad2c73ce_T150-410-11-041-02_shadow.png?sh=450&sm=fit&sw=450",
+    "source": "https://www.tissotwatches.com/en-en/T1504101104102.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.041.02%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.041.02",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "Safyras ir 10 bar",
+      "Greitai keičiama apyrankė"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Nėra aukštimačio ar kitų žygių funkcijų"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 345,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1504101104102.html",
       "checked": "2026-10-28"
     }
   },
@@ -493,47 +493,6 @@
     }
   },
   {
-    "id": 13,
-    "brand": "Seiko",
-    "collection": "Prospex Speedtimer",
-    "model": "SSC943",
-    "style": "Chronograph",
-    "size": "41,4",
-    "description": "Speedtimer su saulės energija ir iki 60 minučių chronografu.",
-    "image": "https://www.seikowatches.com/ph-en/-/media/Images/Product--Image/All/Seiko/2024/04/19/21/40/SSC943P1/SSC943P1_03.jpg?mh=1200&mw=1200",
-    "source": "https://www.seikowatches.com/sg-en/products/prospex/ssc943",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSC943%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSC943",
-    "specs": {
-      "Mechanizmas": "Solar chronografas · V192",
-      "Skersmuo": "41,4 mm",
-      "Storis": "13 mm",
-      "Energija / rezervas": "6 mėn. įkrovus",
-      "Stiklas": "Safyras · AR",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "89 g"
-    },
-    "pros": [
-      "Saulės įkrovimas, ±15 s per mėnesį",
-      "Safyras ir 10 bar"
-    ],
-    "cons": [
-      "13 mm storio korpusas",
-      "21 mm tvirtinimas mažiau universalus nei 20 mm"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 750,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.seikowatches.com/de-de/products/prospex/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
     "id": 1,
     "brand": "King Seiko",
     "collection": "VANAC",
@@ -694,6 +653,47 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.seikowatches.com/de-de/products/prospex/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 10,
+    "brand": "Seiko",
+    "collection": "Presage GMT",
+    "model": "SSK037",
+    "style": "Dress",
+    "size": "40,5",
+    "description": "Cocktail Time su papildoma 24 valandų rodykle antrai laiko juostai.",
+    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2024/04/30/21/16/SSK037J1/SSK037J1.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/sg-en/products/presage/ssk037j1",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSK037%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Aseikowatches.com%20SSK037",
+    "specs": {
+      "Mechanizmas": "Automatinis GMT · 4R34",
+      "Skersmuo": "40,5 mm",
+      "Storis": "12,8 mm",
+      "Energija / rezervas": "41 val.",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Svoris": "137 g"
+    },
+    "pros": [
+      "GMT rodyklė dviem laiko juostoms",
+      "20 mm dirželio tvirtinimas"
+    ],
+    "cons": [
+      "12,8 mm storis didesnis nei paprasto Cocktail Time",
+      "Hardlex vietoje safyro"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 620,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
       "checked": "2026-10-28"
     }
   }
