@@ -82,6 +82,47 @@
     }
   },
   {
+    "id": 23,
+    "brand": "Casio",
+    "collection": "G-SHOCK · Full Metal",
+    "model": "GMW-B5000D-1",
+    "style": "Everyday",
+    "size": "43,2",
+    "description": "Plieninis kvadratinis G-SHOCK su STN LCD ekranu, Tough Solar, Bluetooth ir Multi Band 6 laiko sinchronizacija. Pasaulio laikas, chronometras, laikmatis ir 5 žadintuvai.",
+    "image": "https://www.casio.com/content/dam/casio/product-info/locales/de/de/timepiece/product/watch/G/GM/GMW/GMW-B5000D-1/assets/GMW-B5000D-1_Seq1.png.transform/main-visual-sp/image.png",
+    "source": "https://www.casio.com/europe/watches/casio/product.GMW-B5000D-1/",
+    "status": "Wishlist",
+    "imageVerified": false,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Casio%20GMW-B5000D-1",
+    "sourceSearch": "https://www.google.com/search?q=site%3Acasio.com%20GMW-B5000D-1",
+    "specs": {
+      "Mechanizmas": "Skaitmeninis · Tough Solar",
+      "Korpusas (ilgis × plotis)": "49,3 × 43,2 mm",
+      "Storis": "13 mm",
+      "Energija / rezervas": "Apie 10 mėn. be šviesos, įkrovus",
+      "Stiklas": "Mineralinis",
+      "Atsparumas vandeniui": "20 bar",
+      "Svoris": "167 g"
+    },
+    "pros": [
+      "Saulės įkrovimas, Bluetooth ir radijo laiko sinchronizacija",
+      "Smūgiams atspari konstrukcija, plieninė apyrankė ir 20 bar"
+    ],
+    "cons": [
+      "167 g svoris ir 49,3 mm korpuso ilgis",
+      "Mineralinis stiklas mažiau atsparus įbrėžimams nei safyras"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 549,
+      "currency": "EUR",
+      "basis": "Oficiali Casio rekomenduojama kaina Italijoje, su PVM",
+      "source": "https://www.casio.com/it/watches/gshock/gmw-b5000/",
+      "checked": "2026-10-28"
+    }
+  },
+  {
     "id": 22,
     "brand": "Seiko",
     "collection": "5 Sports × BAMFORD",
@@ -366,47 +407,6 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
-      "checked": "2026-10-28"
-    }
-  },
-  {
-    "id": 23,
-    "brand": "Casio",
-    "collection": "Timeless · MTP-1302",
-    "model": "MTP-1302PE-2AV",
-    "style": "Everyday",
-    "size": "38,5",
-    "description": "Klasikinis Casio su ledo mėlynumo tekstūriniu ciferblatu, rievėta lunete, datos langeliu ir plienine apyranke.",
-    "image": "https://www.casio.com/content/dam/casio/product-info/locales/europe/en-gb/timepiece/product/watch/M/MT/MTP/mtp-1302pe-2av/assets/MTP-1302PE-2AV.png.transform/main-visual-sp/image.png",
-    "source": "https://www.casio.com/europe/watches/casio/product.MTP-1302PE-2AV/",
-    "status": "Wishlist",
-    "imageVerified": false,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Casio%20MTP-1302PE-2AV",
-    "sourceSearch": "https://www.google.com/search?q=site%3Acasio.com%20MTP-1302PE-2AV",
-    "specs": {
-      "Mechanizmas": "Kvarcinis · ±20 s/mėn.",
-      "Skersmuo": "38,5 mm",
-      "Storis": "9,4 mm",
-      "Energija / rezervas": "SR626SW · apie 3 metus",
-      "Stiklas": "Mineralinis",
-      "Atsparumas vandeniui": "5 bar",
-      "Svoris": "107 g"
-    },
-    "pros": [
-      "Kompaktiškas 38,5 mm korpusas ir 9,4 mm storis",
-      "Nedidelė kaina, datos rodymas ir plieninė apyrankė"
-    ],
-    "cons": [
-      "Mineralinis stiklas mažiau atsparus įbrėžimams nei safyras",
-      "Bateriją reikia keisti; 5 bar atsparumas kuklesnis už 10 bar modelių"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 69.9,
-      "currency": "EUR",
-      "basis": "Oficiali Casio kaina Vokietijoje",
-      "source": "https://www.casio.com/de/watches/casio/product.MTP-1302PE-2AV/",
       "checked": "2026-10-28"
     }
   },
