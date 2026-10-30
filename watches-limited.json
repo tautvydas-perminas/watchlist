@@ -1,0 +1,468 @@
+[
+  {
+    "id": "limited-1",
+    "brand": "Citizen",
+    "collection": "TSUYOSA × seconde/seconde/",
+    "model": "NJ0157-81L",
+    "style": "Integrated",
+    "size": "40",
+    "description": "Mėlynas kasdienis laikrodis su pikseline katana vietoje minučių rodyklės. Mano pirmas pasirinkimas tau: santūrus siluetas, bet netikėta japoniška detalė.",
+    "image": "https://fr.citizenwatch.eu/media/thumbs/b8/18/953252a5d181012dedcc3b1c1cd2bca869eb/1400x_crop%3Dcenter%3Bformat%3Dwebp/managed/df/bb/dfbb4fbd34a5385342f4419a070ff852/NJ0157-81L-1.png.thumb.webp",
+    "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Citizen%20NJ0157-81L",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 8210 · 42 val.",
+      "Skersmuo": "40 mm",
+      "Storis": "11.7 mm",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "5 bar",
+      "Tiražas": "3 600 vnt."
+    },
+    "pros": [
+      "Originalus gamintojo bendradarbiavimas",
+      "40 mm ir safyras; tinka smart casual"
+    ],
+    "cons": [
+      "Tik 5 bar",
+      "Integruota apyrankė riboja dirželių pasirinkimą"
+    ],
+    "limitedEdition": {
+      "quantity": 3600,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Gamintojo puslapis; likutis nepatvirtintas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 449,
+      "currency": "EUR",
+      "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
+      "label": "Gamintojo EUR kaina ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    }
+  },
+  {
+    "id": "limited-2",
+    "brand": "Seiko",
+    "collection": "5 Sports × Bamford",
+    "model": "SRPL95K1 / SBSA315",
+    "style": "Statement",
+    "size": "42.5",
+    "description": "Tavo jau pamėgtas Bamford – šio sąrašo atskaitos taškas. Peršviečiamas mėlynas ciferblatas ir ryškūs akcentai laisvalaikiui.",
+    "image": "https://www.seikowatches.com/uk-en/-/media/Images/Product--Image/All/Seiko/2025/07/08/21/04/SRPL95K1/SRPL95K1.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl95",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL95K1%20/%20SBSA315",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R36 · 41 val.",
+      "Skersmuo": "42.5 mm",
+      "Storis": "13.4 mm",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "10 bar",
+      "Tiražas": "2 025 vnt."
+    },
+    "pros": [
+      "Oficiali Seiko kolaboracija",
+      "Trumpas 46 mm atstumas tarp auselių"
+    ],
+    "cons": [
+      "42,5 × 13,4 mm – būtina pasimatuoti",
+      "Hardlex; nemokėčiau didelės priemokos vien už retumą"
+    ],
+    "limitedEdition": {
+      "quantity": 2025,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl95",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Butikų leidimas; likutis nepatvirtintas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 480,
+      "currency": "EUR",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl95",
+      "label": "Gamintojo EUR kaina ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    }
+  },
+  {
+    "id": "limited-3",
+    "brand": "Seiko",
+    "collection": "Presage STAR BAR · Purple Sunset",
+    "model": "SRPK75J1",
+    "style": "Dress",
+    "size": "40.5",
+    "description": "Tamsiai mėlynos ir violetinės perėjimas – drąsesnis vakarinis tavo Cocktail Time variantas. Derinčiau su tamsiu švarku ar pilkais marškiniais.",
+    "image": "https://seikoboutique.com.my/wp-content/uploads/2024/01/SRPK75J1.png",
+    "source": "https://seikoboutique.com.my/product/srpk75j1/",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPK75J1",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35 · 41 val.",
+      "Skersmuo": "40.5 mm",
+      "Storis": "11.8 mm",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Tiražas": "9 000 vnt."
+    },
+    "pros": [
+      "Išraiškingas ciferblatas, paprastas išdėstymas",
+      "40,5 mm korpusas ir odinis dirželis"
+    ],
+    "cons": [
+      "Hardlex už daugiau nei 500 €",
+      "9 000 vnt. – ribotas, bet ne itin mažas tiražas"
+    ],
+    "limitedEdition": {
+      "quantity": 9000,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://seikoboutique.com.my/product/srpk75j1/",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Kulta-Center: išparduotas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 559,
+      "currency": "EUR",
+      "source": "https://www.kulta-center.com/en/seiko-presage-cocktail-time-star-bar-limited-edition-srpk75j1",
+      "label": "Kulta-Center · išparduotas ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    }
+  },
+  {
+    "id": "limited-4",
+    "brand": "Seiko",
+    "collection": "5 Sports Heritage Re-creation",
+    "model": "SRPL03K1",
+    "style": "Vintage",
+    "size": "38.5",
+    "description": "Sidabrinis retro modelis su raudona sekundine rodykle. Vienas universaliausių pasirinkimų šiame sąraše: charakteringas, tačiau lengvai derinamas.",
+    "image": "https://www.seikowatches.com/fr-fr/-/media/Images/Product--Image/All/Seiko/2024/06/05/21/10/SRPL03K1/SRPL03K1.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl03",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPL03K1",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R36 · 41 val.",
+      "Skersmuo": "38.5 mm",
+      "Storis": "12.4 mm",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "10 bar",
+      "Tiražas": "9 999 vnt."
+    },
+    "pros": [
+      "38,5 mm ir 44,8 mm tarp auselių",
+      "10 bar; pridedamas odinis dirželis"
+    ],
+    "cons": [
+      "12,4 mm storis",
+      "Hardlex; tiražas gana didelis"
+    ],
+    "limitedEdition": {
+      "quantity": 9999,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl03",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Gamintojo archyvas; likutis nepatvirtintas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 460,
+      "currency": "EUR",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpl03",
+      "label": "Gamintojo EUR kaina ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    }
+  },
+  {
+    "id": "limited-5",
+    "brand": "Orient",
+    "collection": "Bambino 75th Anniversary",
+    "model": "RA-AC0027S",
+    "style": "Dress",
+    "size": "40.5",
+    "description": "Baltas klasikinis modelis su mėlynomis rodyklėmis ir šiltais indeksais. Tavo kolekcijoje skirtas progoms, kai norisi elegancijos ir odinio dirželio.",
+    "image": "https://orient-watch.com/en/orient/collection/classic/classic-and-simple-style/RA-AC0027S/product_en_file/file/RA-AC0027S_main.webp",
+    "source": "https://orient-watch.com/en/orient/collection/classic/classic-and-simple-style/RA-AC0027S/",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Orient%20RA-AC0027S",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · F6724 · >40 val.",
+      "Skersmuo": "40.5 mm",
+      "Storis": "12.3 mm",
+      "Stiklas": "Mineralinis",
+      "Atsparumas vandeniui": "3 bar",
+      "Tiražas": "9 500 vnt."
+    },
+    "pros": [
+      "Savas Orient mechanizmas",
+      "Du dirželiai; aiški klasikinė estetika"
+    ],
+    "cons": [
+      "Mineralinis stiklas ir tik 3 bar",
+      "21 mm dirželio plotis mažiau įprastas"
+    ],
+    "limitedEdition": {
+      "quantity": 9500,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://orient-watch.com/en/orient/collection/classic/classic-and-simple-style/RA-AC0027S/",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Kulta-Center: išparduotas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 337,
+      "currency": "EUR",
+      "source": "https://www.kulta-center.com/en/ra-ac0027s",
+      "label": "Kulta-Center · išparduotas ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    }
+  },
+  {
+    "id": "limited-6",
+    "brand": "Seiko",
+    "collection": "5 Sports 55th Anniversary Re-creation",
+    "model": "SRPK17K1",
+    "style": "Vintage",
+    "size": "39.5",
+    "description": "Juodas 1968 m. dizaino atkūrimas su retro apyranke. Sportiškesnis už PR 100, bet pakankamai ramus kasdienai.",
+    "image": "https://www.seikowatches.com/uk-en/-/media/Images/Product--Image/All/Seiko/2023/04/21/11/40/SRPK17K1/SRPK17K1.png",
+    "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpk17",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPK17K1",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R36 · 41 val.",
+      "Skersmuo": "39.5 mm",
+      "Storis": "12.5 mm",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "10 bar",
+      "Tiražas": "15 555 vnt."
+    },
+    "pros": [
+      "39,5 mm; tik 43,1 mm tarp auselių",
+      "Istorinis Seiko dizainas ir 10 bar"
+    ],
+    "cons": [
+      "15 555 vnt. nėra didelis retumas",
+      "12,5 mm storis ir Hardlex"
+    ],
+    "limitedEdition": {
+      "quantity": 15555,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpk17",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Gamintojo puslapis; likutis nepatvirtintas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 410,
+      "currency": "EUR",
+      "source": "https://www.seikowatches.com/fr-fr/products/5sports/srpk17",
+      "label": "Gamintojo EUR kaina ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    }
+  },
+  {
+    "id": "limited-7",
+    "brand": "Seiko",
+    "collection": "Presage · Frozen Margarita",
+    "model": "SRPE49J1",
+    "style": "Dress",
+    "size": "38.5",
+    "description": "Ledinis mėlynas tekstūrinis ciferblatas ant tinklinės apyrankės. Tinka šviesiems vasariniams drabužiams ir vakarienei.",
+    "image": "https://www.seikowatches.com/middleeast-en/-/media/Images/Product--Image/All/Seiko/2022/02/20/02/23/SRPE49J1/SRPE49J1.png?mh=1200&mw=1200",
+    "source": "https://www.seikowatches.com/middleeast-en/products/presage/srpe49j1",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPE49J1",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R35 · 41 val.",
+      "Skersmuo": "38.5 mm",
+      "Storis": "11.8 mm",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "5 bar",
+      "Tiražas": "5 000 vnt."
+    },
+    "pros": [
+      "38,5 mm – patogus kompaktiškas variantas",
+      "Tinklinė apyrankė ir papildomas odinis dirželis"
+    ],
+    "cons": [
+      "Senesnis leidimas; naują gali būti sunku rasti",
+      "Hardlex; pateikta 2020 m., ne dabartinė pirkimo kaina"
+    ],
+    "limitedEdition": {
+      "quantity": 5000,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://www.seikowatches.com/middleeast-en/products/presage/srpe49j1",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Senesnis leidimas; naujų likutis nepatvirtintas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 630,
+      "currency": "EUR",
+      "source": "https://www.seikowatches.com/de-de/news/cocktail-new2020",
+      "label": "Istorinė 2020 m. gamintojo kaina ↗",
+      "basis": "Gamintojo 2020-09-14 paskelbta rekomenduojama kaina, ne dabartinis pasiūlymas.",
+      "checked": "2026-10-30",
+      "heading": "ISTORINĖ KAINA · 2020"
+    }
+  },
+  {
+    "id": "limited-8",
+    "brand": "Citizen",
+    "collection": "TSUYOSA × Pantone · Dreaming Pink",
+    "model": "NJ0158-89X",
+    "style": "Integrated",
+    "size": "40",
+    "description": "Rožinis ciferblatas – sąmoningai drąsesnė alternatyva tavo žaliems ir mėlyniems favoritams. Derinčiau su baltais marškinėliais ar pilka apranga.",
+    "image": "https://citizen-me.com/assets/upload/product/NJ0158-89X.png",
+    "source": "https://citizen-me.com/productinfo/product_info/NJ0158-89X",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Citizen%20NJ0158-89X",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 8210 · 42 val.",
+      "Skersmuo": "40 mm",
+      "Storis": "11.7 mm",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "5 bar",
+      "Tiražas": "1 999 vnt."
+    },
+    "pros": [
+      "Švarus dizainas su ryškesne spalva",
+      "Safyras ir 1 999 vnt. tiražas"
+    ],
+    "cons": [
+      "Tik 5 bar",
+      "Persidengia su kitais integruotos apyrankės laikrodžiais"
+    ],
+    "limitedEdition": {
+      "quantity": 1999,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://citizen-me.com/productinfo/product_info/NJ0158-89X",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Naujų likutis ir EUR kaina nepatvirtinti",
+      "checked": "2026-10-30"
+    },
+    "price": null
+  },
+  {
+    "id": "limited-9",
+    "brand": "Seiko",
+    "collection": "5 Sports × Kosuke Kawamura",
+    "model": "SRPJ41K1",
+    "style": "Statement",
+    "size": "42.5",
+    "description": "Oranžinis ir turkio peršviečiamas ciferblatas. Eksperimentinis laisvalaikio pasirinkimas – vertinčiau kaip vieną ryškų kolekcijos akcentą.",
+    "image": "https://seikoboutique.com.my/wp-content/uploads/2022/08/SRPJ41K1.png",
+    "source": "https://seikoboutique.com.my/product/srpj41k1/",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPJ41K1",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 4R36 · 41 val.",
+      "Skersmuo": "42.5 mm",
+      "Storis": "13.4 mm",
+      "Stiklas": "Hardlex",
+      "Atsparumas vandeniui": "10 bar",
+      "Tiražas": "3 000 vnt."
+    },
+    "pros": [
+      "Originali menininko kolaboracija",
+      "Spalvos ir matomi kalendoriaus diskai"
+    ],
+    "cons": [
+      "Vizualiai judresnis už tavo įprastą stilių",
+      "42,5 × 13,4 mm; Hardlex"
+    ],
+    "limitedEdition": {
+      "quantity": 3000,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://seikoboutique.com.my/product/srpj41k1/",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Seiko Boutique MY ir IRISIMO: neprieinamas",
+      "checked": "2026-10-30"
+    },
+    "price": null
+  },
+  {
+    "id": "limited-10",
+    "brand": "Baltic",
+    "collection": "Prismic Stone · Green Jade New York",
+    "model": "Prismic Stone Green Jade · 2024",
+    "style": "Dress",
+    "size": "36",
+    "description": "Aspiracinė išimtis: natūralaus žalio nefrito ciferblatas ir plonas plieno bei titano korpusas. Ryškus per medžiagą ir spalvą, ne per dydį.",
+    "image": "https://cdn.baltic-watches.com/f/73554/2709x3609/d03acf12a6/prismic-stone-green-jade-1.jpg?width=1200",
+    "source": "https://baltic-watches.com/en/archives/prismic-stone",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Baltic%20Prismic%20Stone%20Green%20Jade%20%C2%B7%202024",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Rankinis · ETA Peseux 7001 · 42 val.",
+      "Skersmuo": "36 mm",
+      "Storis": "9.2 mm",
+      "Stiklas": "Safyras su AR",
+      "Atsparumas vandeniui": "3 bar",
+      "Tiražas": "200 vnt."
+    },
+    "pros": [
+      "Tik 200 šios spalvos vnt.; kiekvieno akmens raštas skiriasi",
+      "36 mm ir 9,2 mm; safyras"
+    ],
+    "cons": [
+      "Virš įprasto 500–700 € biudžeto; dabartinė kaina nepatvirtinta",
+      "Gamintojo archyvas: išparduotas; tik 3 bar"
+    ],
+    "limitedEdition": {
+      "quantity": 200,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://baltic-watches.com/en/archives/prismic-stone",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Gamintojo archyvas: išparduotas",
+      "checked": "2026-10-30"
+    },
+    "price": null
+  }
+]
