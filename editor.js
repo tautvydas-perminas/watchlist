@@ -84,7 +84,7 @@
   });
   loginButton.addEventListener('click', () => {
     if (!api()) return message('Azure Function adresas dar nenustatytas.');
-    window.open(api() + '/.auth/login/aad?post_login_redirect_uri=/', '_blank', 'noopener');
+    window.open(api() + '/.auth/login/aad?post_login_redirect_uri=%2Fapi%2Fwatchlist%2F' + encodeURIComponent(activeList), '_blank', 'noopener');
     message('Prisijunkite atsidariusiame lange, tada spauskite Redaguoti.');
   });
   window.watchlistEditorBeforeNavigation = () => {
