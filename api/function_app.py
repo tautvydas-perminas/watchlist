@@ -73,3 +73,17 @@ def watchlist(req: func.HttpRequest) -> func.HttpResponse:
         return respond({"error": "GitHub request failed", "status": error.code}, 502)
     except Exception:
         return respond({"error": "Server error"}, 500)
+
+
+@app.route(route="auth-return", methods=["GET"])
+def auth_return(req: func.HttpRequest) -> func.HttpResponse:
+    # Redirect only to our fixed website origin, never to a user-supplied URL.
+    principal = req.headers.get("X-MS-CLIENT-PRINCIPAL-ID")
+    allowed = os.getenv("ALLOWED_PRINCIPAL_ID", "")
+    if not allowed or not principal or principal.lower() != allowed.lower():
+        return respond({"error": "Forbidden"}, 403)
+    collection = req.params.get("list", "original")
+    if collection not in FILES:
+        collection = "original"
+    destination = "https://portfoliomanager.z6.web.core.windows.net/?list=" + collection
+    return func.HttpResponse("", status_code=302, headers={"Location": destination, "Cache-Control": "no-store"})
