@@ -60,8 +60,18 @@ def watchlist(req: func.HttpRequest) -> func.HttpResponse:
             return respond({"error": "Cannot empty collection"}, 400)
         if body.get("sha") != current["sha"]:
             return respond({"error": "Collection changed. Reload before saving."}, 409)
-        # Only reorder or remove; all watch attributes remain server-authoritative.
-        updated = [existing[str(item_id)] for item_id in ids]
+        # Only reorder, remove and update user-authored comments.
+        comments = body.get("comments", {})
+        if not isinstance(comments, dict) or not set(comments).issubset(existing):
+            return respond({"error": "Invalid comment IDs"}, 400)
+        if not all(isinstance(value, str) and len(value) <= 3000 for value in comments.values()):
+            return respond({"error": "Comments must be text up to 3000 characters"}, 400)
+        updated = []
+        for item_id in ids:
+            item = existing[str(item_id)].copy()
+            if str(item_id) in comments:
+                item["comment"] = comments[str(item_id)]
+            updated.append(item)
         encoded = base64.b64encode((json.dumps(updated, ensure_ascii=False, indent=2) + "\n").encode()).decode()
         result = github("PUT", FILES[collection], {
             "message": "Edit " + collection + " watchlist via website",
