@@ -1,6 +1,11 @@
 name: Deploy Watchlist Azure Function (OIDC)
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'api/**'
+      - '.github/workflows/deploy-function.yml'
   workflow_dispatch:
 
 permissions:
@@ -17,10 +22,8 @@ jobs:
     timeout-minutes: 20
     environment: watchlist-function
     steps:
-      - name: Checkout editor feature branch
+      - name: Checkout main branch
         uses: actions/checkout@v4
-        with:
-          ref: feature/watchlist-editor
 
       - name: Validate Python source
         run: |
