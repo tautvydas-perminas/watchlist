@@ -1,43 +1,43 @@
 <!doctype html>
-<html lang="lt">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#142b27">
-  <title>Mano laikrodžiai · Kolekcijos užrašai</title>
+  <title>My Watches · Collection Notes</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
   <script src="editor-config.js" defer></script>
   <script src="editor.js" defer></script>
 </head>
 <body>
-  <a class="skip" href="#grid">Pereiti prie laikrodžių</a>
+  <a class="skip" href="#grid">Skip to watches</a>
   <header>
     <div class="header-inner">
-      <div class="eyebrow">KOLEKCIJOS UŽRAŠAI <span>SEIKO / TISSOT / CASIO / ORIENT</span></div>
-      <h1>Mano laikrodžiai<span>.</span></h1>
-      <p>Dizainas patraukia. Detalės padeda pasirinkti.</p>
-      <div class="header-foot"><span id="collection-summary">Kraunama…</span><span>Parametrai, privalumai ir kompromisai vienoje vietoje</span></div>
+      <div class="eyebrow">COLLECTION NOTES <span>SEIKO / TISSOT / CASIO / ORIENT</span></div>
+      <h1>My Watches<span>.</span></h1>
+      <p>Design catches the eye. Details guide the choice.</p>
+      <div class="header-foot"><span id="collection-summary">Loading…</span><span>Specifications, strengths and trade-offs in one place</span></div>
     </div>
   </header>
   <main>
-    <nav class="collection-tabs" aria-label="Laikrodžių kolekcijos">
-      <a href="?list=original" data-list="original">Pagrindinis sąrašas</a>
-      <a href="?list=limited" data-list="limited">Riboto leidimo laikrodžiai</a>
+    <nav class="collection-tabs" aria-label="Watch collections">
+      <a href="?list=original" data-list="original">Main watchlist</a>
+      <a href="?list=limited" data-list="limited">Limited edition watches</a>
     </nav>
-    <p id="collection-note" class="notice" hidden>Patvirtinti riboti tiražai. Senesni modeliai gali būti išparduoti; gamintojo kaina nėra likučio patvirtinimas. Pristatymas į Lietuvą tikrinamas atskirai. Baltic – aspiracinė biudžeto išimtis.</p>
-    <div class="tools" role="search" aria-label="Laikrodžių filtrai">
-      <label class="search-field"><span>PAIEŠKA</span><input id="search" type="search" placeholder="Modelis, kolekcija, mechanizmas…"></label>
-      <label><span>GAMINTOJAS</span><select id="brand"><option value="">Visi gamintojai</option></select></label>
-      <label><span>STILIUS</span><select id="style"><option value="">Visi stiliai</option></select></label>
-      <button id="reset" type="button">Išvalyti</button>
+    <p id="collection-note" class="notice" hidden>Confirmed limited production runs. Older models may be sold out; list prices do not confirm availability. Shipping to Lithuania must be verified separately. Baltic is an aspirational budget exception.</p>
+    <div class="tools" role="search" aria-label="Watch filters">
+      <label class="search-field"><span>SEARCH</span><input id="search" type="search" placeholder="Model, collection, movement…"></label>
+      <label><span>BRAND</span><select id="brand"><option value="">All brands</option></select></label>
+      <label><span>STYLE</span><select id="style"><option value="">All styles</option></select></label>
+      <button id="reset" type="button">Clear</button>
     </div>
-    <div id="editor-toolbar" class="editor-toolbar" hidden><button id="editor-login" type="button">Prisijungti</button><button id="editor-toggle" type="button">Redaguoti</button><button id="editor-save" type="button" hidden>Išsaugoti</button><button id="editor-cancel" type="button" hidden>Atšaukti</button><span id="editor-status" role="status" aria-live="polite"></span></div>
-    <div class="list-heading"><h2>Modelių apžvalga</h2><span id="count" role="status" aria-live="polite">Kraunama…</span></div>
-    <p class="notice">Parametrai pagal gamintojų specifikacijas. Privalumai ir trūkumai – praktinis vertinimas; tinkamumas priklauso nuo riešo ir naudojimo. AR – antirefleksinė danga, EOL – baterijos išsekimo indikatorius.</p>
-    <section id="grid" class="grid" aria-label="Laikrodžių sąrašas"></section>
-    <noscript>Laikrodžių sąrašui peržiūrėti įjunkite JavaScript.</noscript>
+    <div id="editor-toolbar" class="editor-toolbar" hidden><button id="editor-login" type="button">Sign in</button><button id="editor-toggle" type="button">Edit</button><button id="editor-save" type="button" hidden>Save</button><button id="editor-cancel" type="button" hidden>Cancel</button><span id="editor-status" role="status" aria-live="polite"></span></div>
+    <div class="list-heading"><h2>Watch overview</h2><span id="count" role="status" aria-live="polite">Loading…</span></div>
+    <p class="notice">Specifications are based on manufacturer information. Pros and cons are practical assessments; suitability depends on wrist size and intended use. AR means anti-reflective coating; EOL means end-of-life battery indicator.</p>
+    <section id="grid" class="grid" aria-label="Watch list"></section>
+    <noscript>Enable JavaScript to view the watchlist.</noscript>
   </main>
-  <footer>Asmeninis laikrodžių žurnalas · Nuotraukos kraunamos iš išorinių šaltinių.<br>Nuotraukų teisės priklauso jų savininkams. Spustelėjus nuotrauką atidaroma modelio nuotraukų paieška.</footer>
+  <footer>Personal watch journal · Images are loaded from external sources.<br>Image rights belong to their respective owners. Clicking an image opens a search for that model.</footer>
 </body>
 </html>
