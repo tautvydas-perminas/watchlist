@@ -17,6 +17,7 @@
     loginButton.hidden = authenticated;
     document.querySelectorAll('.editor-actions').forEach(node => node.hidden = !editing);
   };
+  window.watchlistEditorIsEditing = () => editing;
   const render = () => { draw(); controls(); };
   const move = (id, delta) => {
     const i = watches.findIndex(w => String(w.id) === String(id));
@@ -40,6 +41,20 @@
       if (!confirm('Pašalinti ' + watch.brand + ' ' + watch.model + '?')) return;
       watches = watches.filter(w => String(w.id) !== String(watch.id)); render();
     });
+    const section = document.createElement('div');
+    section.className = 'watch-comment-editor';
+    const label = document.createElement('label');
+    label.textContent = 'Mano komentaras';
+    const textarea = document.createElement('textarea');
+    textarea.rows = 3;
+    textarea.maxLength = 3000;
+    textarea.placeholder = 'Pastabos apie šį laikrodį…';
+    textarea.value = watch.comment || '';
+    textarea.addEventListener('input', () => { watch.comment = textarea.value; });
+    textarea.addEventListener('dragstart', event => event.stopPropagation());
+    label.append(textarea);
+    section.append(label);
+    card.querySelector('.info').append(section);
     card.draggable = true;
     card.addEventListener('dragstart', event => event.dataTransfer.setData('text/plain', String(watch.id)));
     card.addEventListener('dragover', event => event.preventDefault());
@@ -85,7 +100,7 @@
     if (!watches.length) return message('Negalima pašalinti visų laikrodžių.');
     saveButton.disabled = true;
     try {
-      const result = await request('PUT', {sha, ids: watches.map(w => w.id)});
+      const result = await request('PUT', {sha, ids: watches.map(w => w.id), comments: Object.fromEntries(watches.map(w => [String(w.id), w.comment || '']))});
       sha = result.sha;
       render(); message('Išsaugota GitHub. Galite toliau redaguoti.');
     } catch (error) { message('Nepavyko išsaugoti: ' + error.message); }
