@@ -1,46 +1,5 @@
 [
   {
-    "id": 16,
-    "brand": "Tissot",
-    "collection": "PR 100",
-    "model": "T150.410.11.091.00",
-    "style": "Everyday",
-    "size": "40",
-    "description": "Žalias PR 100 – plonas kasdienis kvarcinis laikrodis.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwb6df4fc1/product-pictures/c4cc9e85-deb9-4621-a788-cea3eeca271c_T150-410-11-091-00_shadow.png?sh=1400&sm=cut&sw=1400",
-    "source": "https://www.tissotwatches.com/en-us/T1504101109100.html",
-    "status": "Wishlist",
-    "imageVerified": true,
-    "sourceVerified": true,
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.091.00%20official%20watch",
-    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.091.00",
-    "specs": {
-      "Mechanizmas": "Kvarcinis",
-      "Skersmuo": "40 mm",
-      "Storis": "8,25 mm",
-      "Energija / rezervas": "Baterija · EOL",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "10 bar",
-      "Svoris": "122 g"
-    },
-    "pros": [
-      "8,25 mm storis patogus po rankogaliu",
-      "Safyras ir greitai keičiama apyrankė"
-    ],
-    "cons": [
-      "Bateriją reikės keisti",
-      "Nėra GMT ar chronografo"
-    ],
-    "specsChecked": "2026-10-28",
-    "price": {
-      "amount": 295,
-      "currency": "EUR",
-      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
-      "source": "https://www.tissotwatches.com/de-de/T1504101109100.html",
-      "checked": "2026-10-28"
-    }
-  },
-  {
     "id": 4,
     "brand": "Seiko",
     "collection": "Presage Style60s",
@@ -78,6 +37,47 @@
       "currency": "EUR",
       "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
       "source": "https://www.seikowatches.com/de-de/products/presage/lineup",
+      "checked": "2026-10-28"
+    }
+  },
+  {
+    "id": 16,
+    "brand": "Tissot",
+    "collection": "PR 100",
+    "model": "T150.410.11.091.00",
+    "style": "Everyday",
+    "size": "40",
+    "description": "Žalias PR 100 – plonas kasdienis kvarcinis laikrodis.",
+    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dwb6df4fc1/product-pictures/c4cc9e85-deb9-4621-a788-cea3eeca271c_T150-410-11-091-00_shadow.png?sh=1400&sm=cut&sw=1400",
+    "source": "https://www.tissotwatches.com/en-us/T1504101109100.html",
+    "status": "Wishlist",
+    "imageVerified": true,
+    "sourceVerified": true,
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T150.410.11.091.00%20official%20watch",
+    "sourceSearch": "https://www.google.com/search?q=site%3Atissotwatches.com%20T150.410.11.091.00",
+    "specs": {
+      "Mechanizmas": "Kvarcinis",
+      "Skersmuo": "40 mm",
+      "Storis": "8,25 mm",
+      "Energija / rezervas": "Baterija · EOL",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar",
+      "Svoris": "122 g"
+    },
+    "pros": [
+      "8,25 mm storis patogus po rankogaliu",
+      "Safyras ir greitai keičiama apyrankė"
+    ],
+    "cons": [
+      "Bateriją reikės keisti",
+      "Nėra GMT ar chronografo"
+    ],
+    "specsChecked": "2026-10-28",
+    "price": {
+      "amount": 295,
+      "currency": "EUR",
+      "basis": "Orientacinė naujo laikrodžio kaina · gamintojo kaina Europoje",
+      "source": "https://www.tissotwatches.com/de-de/T1504101109100.html",
       "checked": "2026-10-28"
     }
   },
