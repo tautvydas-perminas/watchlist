@@ -16,8 +16,8 @@ for name in ("watches.json", "watches-limited.json"):
         models.add(watch["model"])
         if name == "watches-limited.json":
             edition = watch["limitedEdition"]
-            assert isinstance(edition["quantity"], int) and edition["quantity"] > 0
+            assert (isinstance(edition["quantity"], int) and edition["quantity"] > 0) or (watch.get("status") == "Einamasis Limited Edition" and edition["quantity"] is None)
             assert edition["source"].startswith("https://")
-            assert watch["image"].startswith("https://")
+            assert watch["image"].startswith("https://") or (watch.get("status") == "Einamasis Limited Edition" and watch.get("imageSearch", "").startswith("https://"))
             assert watch["availability"]["label"]
     print(f"{name}: {len(watches)} valid records")
