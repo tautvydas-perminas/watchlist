@@ -66,7 +66,7 @@ def watchlist(req: func.HttpRequest) -> func.HttpResponse:
         result = github("PUT", FILES[collection], {
             "message": "Edit " + collection + " watchlist via website",
             "content": encoded, "sha": current["sha"], "branch": "main"})
-        return respond({"ok": True, "commit": result["commit"]["sha"]})
+        return respond({"ok": True, "commit": result["commit"]["sha"], "sha": result["content"]["sha"]})
     except (ValueError, KeyError, TypeError):
         return respond({"error": "Invalid request or GitHub response"}, 400)
     except urllib.error.HTTPError as error:
