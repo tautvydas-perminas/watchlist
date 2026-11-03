@@ -35,20 +35,20 @@
       node.type = 'button'; node.textContent = text; node.title = title;
       node.addEventListener('click', action); actions.append(node);
     };
-    button('↑', 'Aukštyn', () => move(watch.id, -1));
-    button('↓', 'Žemyn', () => move(watch.id, 1));
-    button('✕', 'Pašalinti', () => {
-      if (!confirm('Pašalinti ' + watch.brand + ' ' + watch.model + '?')) return;
+    button('↑', 'Move up', () => move(watch.id, -1));
+    button('↓', 'Move down', () => move(watch.id, 1));
+    button('✕', 'Remove', () => {
+      if (!confirm('Remove ' + watch.brand + ' ' + watch.model + '?')) return;
       watches = watches.filter(w => String(w.id) !== String(watch.id)); render();
     });
     const section = document.createElement('div');
     section.className = 'watch-comment-editor';
     const label = document.createElement('label');
-    label.textContent = 'Mano komentaras';
+    label.textContent = 'My comment';
     const textarea = document.createElement('textarea');
     textarea.rows = 3;
     textarea.maxLength = 3000;
-    textarea.placeholder = 'Pastabos apie šį laikrodį…';
+    textarea.placeholder = 'Notes about this watch…';
     textarea.value = watch.comment || '';
     textarea.addEventListener('input', () => { watch.comment = textarea.value; });
     textarea.addEventListener('dragstart', event => event.stopPropagation());
@@ -76,7 +76,7 @@
     return response.json();
   };
   const enterEditing = async () => {
-    if (!api()) return message('Pirmiausia sukonfigūruokite Azure Function adresą.');
+    if (!api()) return message('Configure the Azure Function URL first.');
     const version = ++checkVersion;
     const collection = activeList;
     try {
@@ -86,36 +86,36 @@
       watches = data.items; sha = data.sha;
       editing = true;
       search.value = ''; brand.value = ''; style.value = '';
-      render(); message('Redagavimo režimas įjungtas.');
+      render(); message('Edit mode enabled.');
     } catch (error) {
       if (version !== checkVersion) return;
       authenticated = false; editing = false; controls();
       if (!String(error.message).includes('HTTP 403') && !String(error.message).includes('HTTP 401'))
-        message('Nepavyko patikrinti prisijungimo: ' + error.message);
+        message('Could not verify sign-in: ' + error.message);
     }
   };
   editButton.addEventListener('click', enterEditing);
   window.addEventListener('watchlist:loaded', enterEditing);
   saveButton.addEventListener('click', async () => {
-    if (!watches.length) return message('Negalima pašalinti visų laikrodžių.');
+    if (!watches.length) return message('You cannot remove all watches.');
     saveButton.disabled = true;
     try {
       const result = await request('PUT', {sha, ids: watches.map(w => w.id), comments: Object.fromEntries(watches.map(w => [String(w.id), w.comment || '']))});
       sha = result.sha;
-      render(); message('Išsaugota GitHub. Galite toliau redaguoti.');
-    } catch (error) { message('Nepavyko išsaugoti: ' + error.message); }
+      render(); message('Saved to GitHub. You can keep editing.');
+    } catch (error) { message('Could not save: ' + error.message); }
     finally { saveButton.disabled = false; }
   });
   cancelButton.addEventListener('click', () => {
-    editing = false; controls(); loadCollection(activeList); message('Pakeitimai atšaukti.');
+    editing = false; controls(); loadCollection(activeList); message('Changes discarded.');
   });
   loginButton.addEventListener('click', () => {
-    if (!api()) return message('Azure Function adresas dar nenustatytas.');
+    if (!api()) return message('Azure Function URL is not configured.');
     const returnPath = '/api/auth-return?list=' + encodeURIComponent(activeList);
     window.location.assign(api() + '/.auth/login/aad?post_login_redirect_uri=' + encodeURIComponent(returnPath));
   });
   window.watchlistEditorBeforeNavigation = () => {
-    if (editing && !confirm('Neišsaugoti pakeitimai bus prarasti. Tęsti?')) return false;
+    if (editing && !confirm('Unsaved changes will be lost. Continue?')) return false;
     ++checkVersion;
     editing = false; controls(); return true;
   };
