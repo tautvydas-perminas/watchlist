@@ -45,12 +45,7 @@ jobs:
             echo "::error::Add the AZURE_STORAGE_CONNECTION_STRING repository secret before deploying."
             exit 1
           fi
-          account_name="$(python3 - <<'PY'
-import os
-parts = dict(part.split('=', 1) for part in os.environ['AZURE_STORAGE_CONNECTION_STRING'].split(';') if '=' in part)
-print(parts.get('AccountName', ''))
-PY
-          )"
+          account_name="$(python3 -c 'import os; print(dict(p.split("=", 1) for p in os.environ["AZURE_STORAGE_CONNECTION_STRING"].split(";") if "=" in p).get("AccountName", ""))')"
           echo "Deployment target Storage Account: ${account_name}"
           if [[ "${account_name}" != "portfoliomanager" ]]; then
             echo "::error::Wrong Storage Account. Expected portfoliomanager, got ${account_name}."
