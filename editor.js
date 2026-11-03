@@ -7,7 +7,6 @@
   const loginButton = document.querySelector('#editor-login');
   let editing = false;
   let sha = null;
-  let initialIds = [];
   const api = () => (window.WATCHLIST_EDITOR_API || '').replace(/\/$/, '');
   const message = value => { status.textContent = value; };
   const controls = () => {
@@ -53,8 +52,7 @@
   const request = async (method, body) => {
     const response = await fetch(api() + '/api/watchlist/' + activeList, {
       method, credentials: 'include',
-      headers: {'Content-Type': 'application/json'},
-      ...(body ? {body: JSON.stringify(body)} : {})
+      ...(body ? {headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body)} : {})
     });
     if (!response.ok) throw new Error('HTTP ' + response.status + ': ' + (await response.text()).slice(0, 180));
     return response.json();
@@ -64,7 +62,6 @@
     try {
       const data = await request('GET');
       watches = data.items; sha = data.sha;
-      initialIds = watches.map(w => String(w.id));
       editing = true;
       search.value = ''; brand.value = ''; style.value = '';
       render(); message('Redagavimas įjungtas. Pakeitimus išsaugokite.');
