@@ -1,54 +1,5 @@
 [
   {
-    "id": "limited-1",
-    "brand": "Citizen",
-    "collection": "TSUYOSA × seconde/seconde/",
-    "model": "NJ0157-81L",
-    "style": "Integrated",
-    "size": "40",
-    "description": "Mėlynas kasdienis laikrodis su pikseline katana vietoje minučių rodyklės. Mano pirmas pasirinkimas tau: santūrus siluetas, bet netikėta japoniška detalė.",
-    "image": "https://fr.citizenwatch.eu/media/thumbs/b8/18/953252a5d181012dedcc3b1c1cd2bca869eb/1400x_crop%3Dcenter%3Bformat%3Dwebp/managed/df/bb/dfbb4fbd34a5385342f4419a070ff852/NJ0157-81L-1.png.thumb.webp",
-    "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
-    "status": "Wishlist",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Citizen%20NJ0157-81L",
-    "specsChecked": "2026-10-30",
-    "specs": {
-      "Mechanizmas": "Automatinis · 8210 · 42 val.",
-      "Skersmuo": "40 mm",
-      "Storis": "11.7 mm",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "5 bar",
-      "Tiražas": "3 600 vnt."
-    },
-    "pros": [
-      "Originalus gamintojo bendradarbiavimas",
-      "40 mm ir safyras; tinka smart casual"
-    ],
-    "cons": [
-      "Tik 5 bar",
-      "Integruota apyrankė riboja dirželių pasirinkimą"
-    ],
-    "limitedEdition": {
-      "quantity": 3600,
-      "scope": "Worldwide, this reference / colour",
-      "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
-      "checked": "2026-10-30"
-    },
-    "availability": {
-      "label": "Gamintojo puslapis; likutis nepatvirtintas",
-      "checked": "2026-10-30"
-    },
-    "price": {
-      "amount": 449,
-      "currency": "EUR",
-      "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
-      "label": "Gamintojo EUR kaina ↗",
-      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
-      "checked": "2026-10-30",
-      "heading": "PASKELBTA KAINA"
-    }
-  },
-  {
     "id": "limited-2",
     "brand": "Seiko",
     "collection": "5 Sports × Bamford",
@@ -95,7 +46,8 @@
       "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
       "checked": "2026-10-30",
       "heading": "PASKELBTA KAINA"
-    }
+    },
+    "comment": ""
   },
   {
     "id": "limited-9",
@@ -136,7 +88,58 @@
       "label": "Seiko Boutique MY ir IRISIMO: neprieinamas",
       "checked": "2026-10-30"
     },
-    "price": null
+    "price": null,
+    "comment": ""
+  },
+  {
+    "id": "limited-1",
+    "brand": "Citizen",
+    "collection": "TSUYOSA × seconde/seconde/",
+    "model": "NJ0157-81L",
+    "style": "Integrated",
+    "size": "40",
+    "description": "Mėlynas kasdienis laikrodis su pikseline katana vietoje minučių rodyklės. Mano pirmas pasirinkimas tau: santūrus siluetas, bet netikėta japoniška detalė.",
+    "image": "https://fr.citizenwatch.eu/media/thumbs/b8/18/953252a5d181012dedcc3b1c1cd2bca869eb/1400x_crop%3Dcenter%3Bformat%3Dwebp/managed/df/bb/dfbb4fbd34a5385342f4419a070ff852/NJ0157-81L-1.png.thumb.webp",
+    "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Citizen%20NJ0157-81L",
+    "specsChecked": "2026-10-30",
+    "specs": {
+      "Mechanizmas": "Automatinis · 8210 · 42 val.",
+      "Skersmuo": "40 mm",
+      "Storis": "11.7 mm",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "5 bar",
+      "Tiražas": "3 600 vnt."
+    },
+    "pros": [
+      "Originalus gamintojo bendradarbiavimas",
+      "40 mm ir safyras; tinka smart casual"
+    ],
+    "cons": [
+      "Tik 5 bar",
+      "Integruota apyrankė riboja dirželių pasirinkimą"
+    ],
+    "limitedEdition": {
+      "quantity": 3600,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
+      "checked": "2026-10-30"
+    },
+    "availability": {
+      "label": "Gamintojo puslapis; likutis nepatvirtintas",
+      "checked": "2026-10-30"
+    },
+    "price": {
+      "amount": 449,
+      "currency": "EUR",
+      "source": "https://fr.citizenwatch.eu/fr/p/nj0157-81l/",
+      "label": "Gamintojo EUR kaina ↗",
+      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
+      "checked": "2026-10-30",
+      "heading": "PASKELBTA KAINA"
+    },
+    "comment": ""
   },
   {
     "id": "limited-3",
@@ -185,48 +188,8 @@
       "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
       "checked": "2026-10-30",
       "heading": "PASKELBTA KAINA"
-    }
-  },
-  {
-    "id": "limited-10",
-    "brand": "Baltic",
-    "collection": "Prismic Stone · Green Jade New York",
-    "model": "Prismic Stone Green Jade · 2024",
-    "style": "Dress",
-    "size": "36",
-    "description": "Aspiracinė išimtis: natūralaus žalio nefrito ciferblatas ir plonas plieno bei titano korpusas. Ryškus per medžiagą ir spalvą, ne per dydį.",
-    "image": "https://cdn.baltic-watches.com/f/73554/2709x3609/d03acf12a6/prismic-stone-green-jade-1.jpg?width=1200",
-    "source": "https://baltic-watches.com/en/archives/prismic-stone",
-    "status": "Wishlist",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Baltic%20Prismic%20Stone%20Green%20Jade%20%C2%B7%202024",
-    "specsChecked": "2026-10-30",
-    "specs": {
-      "Mechanizmas": "Rankinis · ETA Peseux 7001 · 42 val.",
-      "Skersmuo": "36 mm",
-      "Storis": "9.2 mm",
-      "Stiklas": "Safyras su AR",
-      "Atsparumas vandeniui": "3 bar",
-      "Tiražas": "200 vnt."
     },
-    "pros": [
-      "Tik 200 šios spalvos vnt.; kiekvieno akmens raštas skiriasi",
-      "36 mm ir 9,2 mm; safyras"
-    ],
-    "cons": [
-      "Virš įprasto 500–700 € biudžeto; dabartinė kaina nepatvirtinta",
-      "Gamintojo archyvas: išparduotas; tik 3 bar"
-    ],
-    "limitedEdition": {
-      "quantity": 200,
-      "scope": "Worldwide, this reference / colour",
-      "source": "https://baltic-watches.com/en/archives/prismic-stone",
-      "checked": "2026-10-30"
-    },
-    "availability": {
-      "label": "Gamintojo archyvas: išparduotas",
-      "checked": "2026-10-30"
-    },
-    "price": null
+    "comment": ""
   },
   {
     "id": "current-limited-1",
@@ -274,149 +237,8 @@
       "checked": "2026-11-03",
       "heading": "KATALOGO KAINA"
     },
-    "imageVerified": true
-  },
-  {
-    "id": "current-limited-4",
-    "brand": "Seiko",
-    "collection": "Prospex Diver",
-    "model": "HBC010J1",
-    "style": "Limited",
-    "size": "—",
-    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
-    "image": "https://piazo.jp/image/blogimage/202608/0/SEIKO-Prospex-1965-Heritage-Diver-HBC010-EU-exclusive-07.jpg",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20HBC010J1%20official%20watch",
-    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-    "status": "Einamasis Limited Edition",
-    "releaseDate": null,
-    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
-    "specsChecked": "2026-11-03",
-    "specs": {
-      "Išleidimo data": "Tiksli data nepatvirtinta",
-      "Mechanizmas": "Automatinis · Diver",
-      "Tiražas": "1 400 vnt."
-    },
-    "pros": [
-      "Oficialus ribotas leidimas",
-      "ES kataloge nurodytas prieinamumas"
-    ],
-    "cons": [
-      "Tiražas ir pristatymas į Lietuvą nepatvirtinti"
-    ],
-    "limitedEdition": {
-      "quantity": 1400,
-      "scope": "Worldwide, jei patvirtintas tiražas",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "checked": "2026-11-03"
-    },
-    "availability": {
-      "label": "Oficiali ES parduotuvė: Available online",
-      "checked": "2026-11-03"
-    },
-    "price": {
-      "amount": 1650,
-      "currency": "EUR",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "label": "Oficialaus katalogo kaina ↗",
-      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
-      "checked": "2026-11-03",
-      "heading": "KATALOGO KAINA"
-    },
-    "imageVerified": true
-  },
-  {
-    "id": "current-limited-2",
-    "brand": "Seiko",
-    "collection": "Prospex Black Series Night Vision",
-    "model": "SPB433J1",
-    "style": "Limited",
-    "size": "—",
-    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
-    "image": "https://www.seikoboutique.eu/da/68023-superZoom/diving-watch-automatic-prospex-limited-edition-night-vision.jpg",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB433J1%20official%20watch",
-    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-    "status": "Einamasis Limited Edition",
-    "releaseDate": null,
-    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
-    "specsChecked": "2026-11-03",
-    "specs": {
-      "Išleidimo data": "Tiksli data nepatvirtinta",
-      "Mechanizmas": "Automatinis · Diver 200 m",
-      "Tiražas": "Nepatvirtintas"
-    },
-    "pros": [
-      "200 m narų modelis",
-      "Išskirtinė Night Vision serija"
-    ],
-    "cons": [
-      "Pristatymas į Lietuvą nepatvirtintas"
-    ],
-    "limitedEdition": {
-      "quantity": null,
-      "scope": "Worldwide, jei patvirtintas tiražas",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "checked": "2026-11-03"
-    },
-    "availability": {
-      "label": "Oficiali ES parduotuvė: Available online",
-      "checked": "2026-11-03"
-    },
-    "price": {
-      "amount": 1300,
-      "currency": "EUR",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "label": "Oficialaus katalogo kaina ↗",
-      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
-      "checked": "2026-11-03",
-      "heading": "KATALOGO KAINA"
-    },
-    "imageVerified": true
-  },
-  {
-    "id": "current-limited-6",
-    "brand": "Citizen",
-    "collection": "TSUYOSA Shore",
-    "model": "NJ0238-57E",
-    "style": "Limited",
-    "size": "40",
-    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
-    "image": "https://citizen.jp/img/goods/6/CTC_NJ0238-57E_12_EC.jpg",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Citizen%20NJ0238-57E%20official%20watch",
-    "source": "https://citizenwatch.eu/en/p/nj0238-57e/",
-    "status": "Einamasis Limited Edition",
-    "releaseDate": null,
-    "releaseDateStatus": "Numatyta 2026 m. rugpjūtį",
-    "specsChecked": "2026-11-03",
-    "specs": {
-      "Išleidimo data": "2026-08 (numatyta)",
-      "Mechanizmas": "Automatinis · 8210 · 42 val.",
-      "Tiražas": "12 000 vnt.",
-      "Išleidimo metai": "2026",
-      "Skersmuo": "40 mm",
-      "Storis": "12,5 mm",
-      "Stiklas": "Safyras",
-      "Atsparumas vandeniui": "10 bar"
-    },
-    "pros": [
-      "Safyro stiklas",
-      "10 bar ir 12 000 vnt. tiražas"
-    ],
-    "cons": [
-      "Didelis tiražas",
-      "Pristatymas į Lietuvą nepatvirtintas"
-    ],
-    "limitedEdition": {
-      "quantity": 12000,
-      "scope": "Worldwide, jei patvirtintas tiražas",
-      "source": "https://citizenwatch.eu/en/p/nj0238-57e/",
-      "checked": "2026-11-03"
-    },
-    "availability": {
-      "label": "Gamintojo kataloge; sandėlio likutis nepatvirtintas",
-      "checked": "2026-11-03"
-    },
-    "price": null,
-    "imageVerified": true
+    "imageVerified": true,
+    "comment": ""
   },
   {
     "id": "current-limited-7",
@@ -468,55 +290,7 @@
       "checked": "2026-11-03",
       "heading": "KATALOGO KAINA"
     },
-    "imageVerified": true
-  },
-  {
-    "id": "current-limited-5",
-    "brand": "Seiko",
-    "collection": "Prospex Speedtimer",
-    "model": "HBJ008P1",
-    "style": "Limited",
-    "size": "—",
-    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
-    "image": "https://www.seikoboutique.eu/fr/86125-superZoom/montre-homme-prospex-speedtimer-chronographe-quartz-solaire-edition-limitee-hbj008p1.jpg",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20HBJ008P1%20official%20watch",
-    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-    "status": "Einamasis Limited Edition",
-    "releaseDate": "2026-11-01",
-    "releaseDateStatus": "Gamintojo UK parduotuvėje paskelbta išleidimo data",
-    "specsChecked": "2026-11-03",
-    "specs": {
-      "Išleidimo data": "2026-11-01",
-      "Mechanizmas": "Solar chronograph",
-      "Tiražas": "4 000 vnt.",
-      "Skersmuo": "39 mm"
-    },
-    "pros": [
-      "Oficialus ribotas leidimas",
-      "Galima išankstinė rezervacija"
-    ],
-    "cons": [
-      "Dar nėra patvirtinto sandėlio likučio"
-    ],
-    "limitedEdition": {
-      "quantity": 4000,
-      "scope": "Worldwide, jei patvirtintas tiražas",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "checked": "2026-11-03"
-    },
-    "availability": {
-      "label": "Available for pre-order; ne sandėlio likutis",
-      "checked": "2026-11-03"
-    },
-    "price": {
-      "amount": 880,
-      "currency": "EUR",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "label": "Oficialaus katalogo kaina ↗",
-      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
-      "checked": "2026-11-03",
-      "heading": "KATALOGO KAINA"
-    },
-    "imageVerified": true
+    "imageVerified": true,
+    "comment": ""
   }
 ]
