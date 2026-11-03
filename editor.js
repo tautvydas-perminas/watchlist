@@ -7,11 +7,14 @@
   const loginButton = document.querySelector('#editor-login');
   let editing = false;
   let sha = null;
+  let authenticated = false;
+  let checkVersion = 0;
   const api = () => (window.WATCHLIST_EDITOR_API || '').replace(/\/$/, '');
   const message = value => { status.textContent = value; };
   const controls = () => {
     saveButton.hidden = cancelButton.hidden = !editing;
-    editButton.hidden = editing;
+    editButton.hidden = editing || !authenticated;
+    loginButton.hidden = authenticated;
     document.querySelectorAll('.editor-actions').forEach(node => node.hidden = !editing);
   };
   const render = () => { draw(); controls(); };
@@ -57,27 +60,39 @@
     if (!response.ok) throw new Error('HTTP ' + response.status + ': ' + (await response.text()).slice(0, 180));
     return response.json();
   };
-  editButton.addEventListener('click', async () => {
+  const enterEditing = async () => {
     if (!api()) return message('Pirmiausia sukonfigūruokite Azure Function adresą.');
+    const version = ++checkVersion;
+    const collection = activeList;
     try {
       const data = await request('GET');
+      if (version !== checkVersion || collection !== activeList) return;
+      authenticated = true;
       watches = data.items; sha = data.sha;
       editing = true;
       search.value = ''; brand.value = ''; style.value = '';
-      render(); message('Redagavimas įjungtas. Pakeitimus išsaugokite.');
-    } catch (error) { message('Nepavyko prisijungti: ' + error.message); }
-  });
+      render(); message('Redagavimo režimas įjungtas.');
+    } catch (error) {
+      if (version !== checkVersion) return;
+      authenticated = false; editing = false; controls();
+      if (!String(error.message).includes('HTTP 403') && !String(error.message).includes('HTTP 401'))
+        message('Nepavyko patikrinti prisijungimo: ' + error.message);
+    }
+  };
+  editButton.addEventListener('click', enterEditing);
+  window.addEventListener('watchlist:loaded', enterEditing);
   saveButton.addEventListener('click', async () => {
     if (!watches.length) return message('Negalima pašalinti visų laikrodžių.');
     saveButton.disabled = true;
     try {
-      await request('PUT', {sha, ids: watches.map(w => w.id)});
-      editing = false; render(); message('Išsaugota GitHub. Palaukite, kol baigsis deploy.');
+      const result = await request('PUT', {sha, ids: watches.map(w => w.id)});
+      sha = result.sha;
+      render(); message('Išsaugota GitHub. Galite toliau redaguoti.');
     } catch (error) { message('Nepavyko išsaugoti: ' + error.message); }
     finally { saveButton.disabled = false; }
   });
   cancelButton.addEventListener('click', () => {
-    editing = false; loadCollection(activeList); message('Pakeitimai atšaukti.');
+    editing = false; controls(); loadCollection(activeList); message('Pakeitimai atšaukti.');
   });
   loginButton.addEventListener('click', () => {
     if (!api()) return message('Azure Function adresas dar nenustatytas.');
@@ -86,6 +101,7 @@
   });
   window.watchlistEditorBeforeNavigation = () => {
     if (editing && !confirm('Neišsaugoti pakeitimai bus prarasti. Tęsti?')) return false;
+    ++checkVersion;
     editing = false; controls(); return true;
   };
   toolbar.hidden = false;
