@@ -30,8 +30,10 @@ jobs:
           python3 -m json.tool watches-limited.json > /dev/null
           python3 scripts/validate_collections.py
           node --check app.js
+          node --check editor.js
+          node --check editor-config.js
           mkdir -p "${RUNNER_TEMP}/watchlist-site"
-          cp index.html app.js styles.css watches.json watches-limited.json "${RUNNER_TEMP}/watchlist-site/"
+          cp index.html app.js editor.js editor-config.js styles.css watches.json watches-limited.json "${RUNNER_TEMP}/watchlist-site/"
 
       - name: Upload website to Azure Storage
         shell: bash
