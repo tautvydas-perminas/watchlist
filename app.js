@@ -123,6 +123,7 @@ async function loadCollection(key) {
     for (const value of [...new Set(data.map(w => w.style))].sort((a,b) => (labels[a] || a).localeCompare(labels[b] || b,'lt'))) style.add(new Option(labels[value] || value,value));
     document.querySelector('#collection-summary').textContent = data.length + ' modelių · ' + (key === 'limited' ? 'Riboto leidimo kolekcija' : 'Pagrindinė kolekcija');
     draw();
+    window.dispatchEvent(new Event('watchlist:loaded'));
   } catch (error) {
     if (controller.signal.aborted) return;
     grid.replaceChildren(el('p','empty','Nepavyko įkelti laikrodžių. Atnaujinkite puslapį arba bandykite vėliau.'));
