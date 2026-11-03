@@ -45,17 +45,12 @@ jobs:
             echo "::error::Add the AZURE_STORAGE_CONNECTION_STRING repository secret before deploying."
             exit 1
           fi
-          account_name="$(python3 -c 'import os; print(dict(p.split("=", 1) for p in os.environ["AZURE_STORAGE_CONNECTION_STRING"].split(";") if "=" in p).get("AccountName", ""))')"
-          echo "Deployment target Storage Account: ${account_name}"
-          if [[ "${account_name}" != "portfoliomanager" ]]; then
-            echo "::error::Wrong Storage Account. Expected portfoliomanager, got ${account_name}."
-            exit 1
-          fi
           echo "Source watches.json SHA256: $(sha256sum "${RUNNER_TEMP}/watchlist-site/watches.json" | cut -d' ' -f1)"
           az storage blob upload-batch \
             --destination '$web' \
             --source "${RUNNER_TEMP}/watchlist-site" \
             --overwrite true \
+            --connection-string "${AZURE_STORAGE_CONNECTION_STRING}" \
             --content-cache-control "no-cache" \
             --only-show-errors
 
