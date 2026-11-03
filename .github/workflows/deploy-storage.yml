@@ -52,19 +52,19 @@ jobs:
             exit 1
           fi
           echo "Source watches.json SHA256: $(sha256sum "${RUNNER_TEMP}/watchlist-site/watches.json" | cut -d' ' -f1)"
-          az storage blob upload-batch \\
+          az storage blob upload-batch \
             --destination '$web' \
             --source "${RUNNER_TEMP}/watchlist-site" \
             --overwrite true \
             --content-cache-control "no-cache" \
             --only-show-errors
 
-          az storage blob download \\
-            --container-name '$web' \\
-            --name watches.json \\
-            --file "${RUNNER_TEMP}/watches-verified.json" \\
-            --connection-string "${AZURE_STORAGE_CONNECTION_STRING}" \\
-            --overwrite \\
+          az storage blob download \
+            --container-name '$web' \
+            --name watches.json \
+            --file "${RUNNER_TEMP}/watches-verified.json" \
+            --connection-string "${AZURE_STORAGE_CONNECTION_STRING}" \
+            --overwrite \
             --only-show-errors
           if ! cmp -s "${RUNNER_TEMP}/watchlist-site/watches.json" "${RUNNER_TEMP}/watches-verified.json"; then
             echo "::error::Uploaded watches.json does not match the GitHub source."
