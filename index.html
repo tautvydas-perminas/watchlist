@@ -7,6 +7,8 @@
   <title>Mano laikrodžiai · Kolekcijos užrašai</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
+  <script src="editor-config.js" defer></script>
+  <script src="editor.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#grid">Pereiti prie laikrodžių</a>
@@ -30,6 +32,7 @@
       <label><span>STILIUS</span><select id="style"><option value="">Visi stiliai</option></select></label>
       <button id="reset" type="button">Išvalyti</button>
     </div>
+    <div id="editor-toolbar" class="editor-toolbar" hidden><button id="editor-login" type="button">Prisijungti</button><button id="editor-toggle" type="button">Redaguoti</button><button id="editor-save" type="button" hidden>Išsaugoti</button><button id="editor-cancel" type="button" hidden>Atšaukti</button><span id="editor-status" role="status" aria-live="polite"></span></div>
     <div class="list-heading"><h2>Modelių apžvalga</h2><span id="count" role="status" aria-live="polite">Kraunama…</span></div>
     <p class="notice">Parametrai pagal gamintojų specifikacijas. Privalumai ir trūkumai – praktinis vertinimas; tinkamumas priklauso nuo riešo ir naudojimo. AR – antirefleksinė danga, EOL – baterijos išsekimo indikatorius.</p>
     <section id="grid" class="grid" aria-label="Laikrodžių sąrašas"></section>
