@@ -52,7 +52,7 @@ function draw() {
     const number = el('span', 'watch-number', String(watches.indexOf(w) + 1).padStart(2, '0'));
     number.setAttribute('aria-label', 'Vieta sąraše: ' + (watches.indexOf(w) + 1));
     top.append(number);
-    const editionLabel = w.limitedEdition ? new Intl.NumberFormat('lt-LT').format(w.limitedEdition.quantity) + ' vnt. pasaulyje' : 'Norų sąrašas';
+    const editionLabel = w.limitedEdition ? (Number.isFinite(w.limitedEdition.quantity) ? new Intl.NumberFormat('lt-LT').format(w.limitedEdition.quantity) + ' vnt. pasaulyje' : 'Limited Edition · tiražas tikrinamas') : 'Norų sąrašas';
     top.append(el('span','meta',w.brand + ' / ' + (labels[w.style] || w.style)),el('span','pill',editionLabel));
     const title = el('h2','',w.collection); title.id = titleId;
     const heading = el('div', 'watch-heading');
@@ -71,6 +71,7 @@ function draw() {
       heading.append(el('div','price-block price-unverified','EUR kaina nepatvirtinta'));
     }
     info.append(top,heading,el('p','desc',w.description));
+    if (w.status === 'Einamasis Limited Edition') info.append(el('p','availability','Einamasis Limited Edition · Išleidimas: ' + (w.releaseDate || w.releaseDateStatus || 'nepatvirtintas')));
     if (w.availability) info.append(el('p','availability',w.availability.label + ' · Tikrinta ' + w.availability.checked));
     const specs = el('dl','specs');
     for (const [key,value] of Object.entries(w.specs || {})) {
