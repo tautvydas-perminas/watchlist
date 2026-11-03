@@ -86,7 +86,7 @@ function draw() {
     const bottom = el('div','bottom');
     bottom.append(link('Gamintojo specifikacijos ↗',w.source),el('span','checked','Tikrinta ' + w.specsChecked));
     if (w.limitedEdition) bottom.append(link('Tiražo šaltinis ↗',w.limitedEdition.source));
-    info.append(bottom); card.append(photo,info); grid.append(card);
+    info.append(bottom); card.append(photo,info); if (window.watchlistEditorActions) window.watchlistEditorActions(card,w); grid.append(card);
   }
   if (!filtered.length) grid.append(el('p','empty','Atitinkančių laikrodžių nerasta. Pakeiskite paiešką arba filtrus.'));
 }
@@ -132,6 +132,7 @@ async function loadCollection(key) {
 }
 for (const tab of document.querySelectorAll('[data-list]')) tab.addEventListener('click',event => {
   if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  if (window.watchlistEditorBeforeNavigation && !window.watchlistEditorBeforeNavigation()) return;
   event.preventDefault();
   const url = new URL(location.href);
   url.searchParams.set('list',tab.dataset.list);
