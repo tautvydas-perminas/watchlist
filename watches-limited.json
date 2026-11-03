@@ -464,5 +464,336 @@
       "checked": "2026-10-30"
     },
     "price": null
+  },
+  {
+    "id": "current-limited-1",
+    "brand": "Seiko",
+    "collection": "Prospex Speedtimer × Datsun",
+    "model": "SSC957P1",
+    "style": "Limited",
+    "size": "—",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSC957P1%20official%20watch",
+    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Solar chronograph",
+      "Tiražas": "Nepatvirtintas"
+    },
+    "pros": [
+      "Datsun bendradarbiavimo modelis",
+      "Saulės energija"
+    ],
+    "cons": [
+      "Pristatymas į Lietuvą nepatvirtintas"
+    ],
+    "limitedEdition": {
+      "quantity": null,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Oficiali ES parduotuvė: Available online",
+      "checked": "2026-11-03"
+    },
+    "price": {
+      "amount": 990,
+      "currency": "EUR",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "label": "Oficialaus katalogo kaina ↗",
+      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
+      "checked": "2026-11-03",
+      "heading": "KATALOGO KAINA"
+    }
+  },
+  {
+    "id": "current-limited-2",
+    "brand": "Seiko",
+    "collection": "Prospex Black Series Night Vision",
+    "model": "SPB433J1",
+    "style": "Limited",
+    "size": "—",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB433J1%20official%20watch",
+    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Automatinis · Diver 200 m",
+      "Tiražas": "Nepatvirtintas"
+    },
+    "pros": [
+      "200 m narų modelis",
+      "Išskirtinė Night Vision serija"
+    ],
+    "cons": [
+      "Pristatymas į Lietuvą nepatvirtintas"
+    ],
+    "limitedEdition": {
+      "quantity": null,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Oficiali ES parduotuvė: Available online",
+      "checked": "2026-11-03"
+    },
+    "price": {
+      "amount": 1300,
+      "currency": "EUR",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "label": "Oficialaus katalogo kaina ↗",
+      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
+      "checked": "2026-11-03",
+      "heading": "KATALOGO KAINA"
+    }
+  },
+  {
+    "id": "current-limited-3",
+    "brand": "Seiko",
+    "collection": "Prospex Diver 300 m",
+    "model": "SPB545J1",
+    "style": "Limited",
+    "size": "—",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SPB545J1%20official%20watch",
+    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Automatinis · Diver 300 m",
+      "Tiražas": "Nepatvirtintas"
+    },
+    "pros": [
+      "300 m atsparumas vandeniui",
+      "Oficialus ribotas leidimas"
+    ],
+    "cons": [
+      "Pristatymas į Lietuvą nepatvirtintas"
+    ],
+    "limitedEdition": {
+      "quantity": null,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Oficiali ES parduotuvė: Available online",
+      "checked": "2026-11-03"
+    },
+    "price": {
+      "amount": 1500,
+      "currency": "EUR",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "label": "Oficialaus katalogo kaina ↗",
+      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
+      "checked": "2026-11-03",
+      "heading": "KATALOGO KAINA"
+    }
+  },
+  {
+    "id": "current-limited-4",
+    "brand": "Seiko",
+    "collection": "Prospex Diver",
+    "model": "HBC010J1",
+    "style": "Limited",
+    "size": "—",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20HBC010J1%20official%20watch",
+    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Automatinis · Diver",
+      "Tiražas": "Nepatvirtintas"
+    },
+    "pros": [
+      "Oficialus ribotas leidimas",
+      "ES kataloge nurodytas prieinamumas"
+    ],
+    "cons": [
+      "Tiražas ir pristatymas į Lietuvą nepatvirtinti"
+    ],
+    "limitedEdition": {
+      "quantity": null,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Oficiali ES parduotuvė: Available online",
+      "checked": "2026-11-03"
+    },
+    "price": {
+      "amount": 1650,
+      "currency": "EUR",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "label": "Oficialaus katalogo kaina ↗",
+      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
+      "checked": "2026-11-03",
+      "heading": "KATALOGO KAINA"
+    }
+  },
+  {
+    "id": "current-limited-5",
+    "brand": "Seiko",
+    "collection": "Prospex Speedtimer",
+    "model": "HBJ008P1",
+    "style": "Limited",
+    "size": "—",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20HBJ008P1%20official%20watch",
+    "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Solar chronograph",
+      "Tiražas": "Nepatvirtintas"
+    },
+    "pros": [
+      "Oficialus ribotas leidimas",
+      "Galima išankstinė rezervacija"
+    ],
+    "cons": [
+      "Dar nėra patvirtinto sandėlio likučio"
+    ],
+    "limitedEdition": {
+      "quantity": null,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Available for pre-order; ne sandėlio likutis",
+      "checked": "2026-11-03"
+    },
+    "price": {
+      "amount": 880,
+      "currency": "EUR",
+      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
+      "label": "Oficialaus katalogo kaina ↗",
+      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
+      "checked": "2026-11-03",
+      "heading": "KATALOGO KAINA"
+    }
+  },
+  {
+    "id": "current-limited-6",
+    "brand": "Citizen",
+    "collection": "TSUYOSA Shore",
+    "model": "NJ0238-57E",
+    "style": "Limited",
+    "size": "40",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Citizen%20NJ0238-57E%20official%20watch",
+    "source": "https://citizenwatch.eu/en/p/nj0238-57e/",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Automatinis · 8210 · 42 val.",
+      "Tiražas": "12 000 vnt.",
+      "Išleidimo metai": "2026",
+      "Skersmuo": "40 mm",
+      "Storis": "12,5 mm",
+      "Stiklas": "Safyras",
+      "Atsparumas vandeniui": "10 bar"
+    },
+    "pros": [
+      "Safyro stiklas",
+      "10 bar ir 12 000 vnt. tiražas"
+    ],
+    "cons": [
+      "Didelis tiražas",
+      "Pristatymas į Lietuvą nepatvirtintas"
+    ],
+    "limitedEdition": {
+      "quantity": 12000,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://citizenwatch.eu/en/p/nj0238-57e/",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Gamintojo kataloge; sandėlio likutis nepatvirtintas",
+      "checked": "2026-11-03"
+    },
+    "price": null
+  },
+  {
+    "id": "current-limited-7",
+    "brand": "Tissot",
+    "collection": "PRX UFO Robot Grendizer 50th Anniversary",
+    "model": "T137.407.33.051.01",
+    "style": "Limited",
+    "size": "40",
+    "description": "Einamasis Limited Edition. Išleidimo data, prieinamumas ir kiti nepatvirtinti duomenys aiškiai pažymėti; gamintojo katalogas nėra pristatymo į Lietuvą garantija.",
+    "image": "",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T137.407.33.051.01%20official%20watch",
+    "source": "https://www.tissotwatches.com/en-dk/lp-tissot-grendizer.html",
+    "status": "Einamasis Limited Edition",
+    "releaseDate": null,
+    "releaseDateStatus": "Tiksli išleidimo data nepatvirtinta",
+    "specsChecked": "2026-11-03",
+    "specs": {
+      "Išleidimo data": "Tiksli data nepatvirtinta",
+      "Mechanizmas": "Automatinis · Powermatic 80 · 80 val.",
+      "Tiražas": "1 975 vnt.",
+      "Skersmuo": "40 mm",
+      "Storis": "10,93 mm",
+      "Stiklas": "Safyras · AR",
+      "Atsparumas vandeniui": "10 bar"
+    },
+    "pros": [
+      "1 975 vnt. tiražas",
+      "Safyras ir 80 val. rezervas"
+    ],
+    "cons": [
+      "Oficialiame JAV ir Australijos puslapyje išparduotas"
+    ],
+    "limitedEdition": {
+      "quantity": 1975,
+      "scope": "Worldwide, jei patvirtintas tiražas",
+      "source": "https://www.tissotwatches.com/en-dk/lp-tissot-grendizer.html",
+      "checked": "2026-11-03"
+    },
+    "availability": {
+      "label": "Kai kuriose rinkose išparduotas; LT likutis nepatvirtintas",
+      "checked": "2026-11-03"
+    },
+    "price": {
+      "amount": 1095,
+      "currency": "EUR",
+      "source": "https://www.tissotwatches.com/en-dk/lp-tissot-grendizer.html",
+      "label": "Oficialaus katalogo kaina ↗",
+      "basis": "Gamintojo ES katalogo kaina; nepatvirtina LT likučio",
+      "checked": "2026-11-03",
+      "heading": "KATALOGO KAINA"
+    }
   }
 ]
