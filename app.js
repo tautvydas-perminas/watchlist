@@ -86,7 +86,13 @@ function draw() {
     const bottom = el('div','bottom');
     bottom.append(link('Gamintojo specifikacijos ↗',w.source),el('span','checked','Tikrinta ' + w.specsChecked));
     if (w.limitedEdition) bottom.append(link('Tiražo šaltinis ↗',w.limitedEdition.source));
-    info.append(bottom); card.append(photo,info); if (window.watchlistEditorActions) window.watchlistEditorActions(card,w); grid.append(card);
+    info.append(bottom);
+    if (w.comment && !window.watchlistEditorIsEditing?.()) {
+      const note = el('div','watch-comment');
+      note.append(el('strong','','Mano komentaras'),el('p','',w.comment));
+      info.append(note);
+    }
+    card.append(photo,info); if (window.watchlistEditorActions) window.watchlistEditorActions(card,w); grid.append(card);
   }
   if (!filtered.length) grid.append(el('p','empty','Atitinkančių laikrodžių nerasta. Pakeiskite paiešką arba filtrus.'));
 }
