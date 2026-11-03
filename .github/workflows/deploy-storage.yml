@@ -45,9 +45,34 @@ jobs:
             echo "::error::Add the AZURE_STORAGE_CONNECTION_STRING repository secret before deploying."
             exit 1
           fi
-          az storage blob upload-batch \
+          account_name="$(python3 - <<'PY'
+import os
+parts = dict(part.split('=', 1) for part in os.environ['AZURE_STORAGE_CONNECTION_STRING'].split(';') if '=' in part)
+print(parts.get('AccountName', ''))
+PY
+          )"
+          echo "Deployment target Storage Account: ${account_name}"
+          if [[ "${account_name}" != "portfoliomanager" ]]; then
+            echo "::error::Wrong Storage Account. Expected portfoliomanager, got ${account_name}."
+            exit 1
+          fi
+          echo "Source watches.json SHA256: $(sha256sum "${RUNNER_TEMP}/watchlist-site/watches.json" | cut -d' ' -f1)"
+          az storage blob upload-batch \\
             --destination '$web' \
             --source "${RUNNER_TEMP}/watchlist-site" \
             --overwrite true \
             --content-cache-control "no-cache" \
             --only-show-errors
+
+          az storage blob download \\
+            --container-name '$web' \\
+            --name watches.json \\
+            --file "${RUNNER_TEMP}/watches-verified.json" \\
+            --connection-string "${AZURE_STORAGE_CONNECTION_STRING}" \\
+            --overwrite \\
+            --only-show-errors
+          if ! cmp -s "${RUNNER_TEMP}/watchlist-site/watches.json" "${RUNNER_TEMP}/watches-verified.json"; then
+            echo "::error::Uploaded watches.json does not match the GitHub source."
+            exit 1
+          fi
+          echo "Verified Azure Storage watches.json matches GitHub source."
