@@ -1,0 +1,41 @@
+name: Deploy Watchlist Azure Function (OIDC)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: watchlist-function-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: watchlist-function
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate Python source
+        run: |
+          python -m compileall -q api
+          test -f api/host.json
+          test -f api/requirements.txt
+
+      - name: Azure login via OIDC
+        uses: azure/login@v2
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Deploy Python Function App
+        uses: Azure/functions-action@v1
+        with:
+          app-name: fa-watchlistmanager
+          package: ./api
+          respect-pom-xml: false
