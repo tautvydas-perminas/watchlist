@@ -142,56 +142,6 @@
     "comment": ""
   },
   {
-    "id": "limited-3",
-    "brand": "Seiko",
-    "collection": "Presage STAR BAR · Purple Sunset",
-    "model": "SRPK75J1",
-    "style": "Dress",
-    "size": "40.5",
-    "description": "Tamsiai mėlynos ir violetinės perėjimas – drąsesnis vakarinis tavo Cocktail Time variantas. Derinčiau su tamsiu švarku ar pilkais marškiniais.",
-    "image": "https://seikoboutique.com.my/wp-content/uploads/2024/01/SRPK75J1.png",
-    "source": "https://seikoboutique.com.my/product/srpk75j1/",
-    "status": "Wishlist",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPK75J1",
-    "specsChecked": "2026-10-30",
-    "specs": {
-      "Mechanizmas": "Automatinis · 4R35 · 41 val.",
-      "Skersmuo": "40.5 mm",
-      "Storis": "11.8 mm",
-      "Stiklas": "Hardlex",
-      "Atsparumas vandeniui": "5 bar",
-      "Tiražas": "9 000 vnt."
-    },
-    "pros": [
-      "Išraiškingas ciferblatas, paprastas išdėstymas",
-      "40,5 mm korpusas ir odinis dirželis"
-    ],
-    "cons": [
-      "Hardlex už daugiau nei 500 €",
-      "9 000 vnt. – ribotas, bet ne itin mažas tiražas"
-    ],
-    "limitedEdition": {
-      "quantity": 9000,
-      "scope": "Worldwide, this reference / colour",
-      "source": "https://seikoboutique.com.my/product/srpk75j1/",
-      "checked": "2026-10-30"
-    },
-    "availability": {
-      "label": "Kulta-Center: išparduotas",
-      "checked": "2026-10-30"
-    },
-    "price": {
-      "amount": 559,
-      "currency": "EUR",
-      "source": "https://www.kulta-center.com/en/seiko-presage-cocktail-time-star-bar-limited-edition-srpk75j1",
-      "label": "Kulta-Center · išparduotas ↗",
-      "basis": "Paskelbta kaina; likučiai ir pristatymas į Lietuvą nepatvirtinti.",
-      "checked": "2026-10-30",
-      "heading": "PASKELBTA KAINA"
-    },
-    "comment": ""
-  },
-  {
     "id": "current-limited-1",
     "brand": "Seiko",
     "collection": "Prospex Speedtimer × Datsun",
