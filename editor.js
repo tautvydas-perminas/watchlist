@@ -55,8 +55,20 @@
     label.append(textarea);
     section.append(label);
     card.querySelector('.info').append(section);
-    card.draggable = true;
-    card.addEventListener('dragstart', event => event.dataTransfer.setData('text/plain', String(watch.id)));
+    // Dragging is initiated only from the dedicated handle, so text remains selectable.
+    const handle = document.createElement('button');
+    handle.type = 'button';
+    handle.className = 'drag-handle';
+    handle.textContent = '⠿';
+    handle.title = 'Drag to reorder';
+    handle.setAttribute('aria-label', 'Drag to reorder ' + watch.model);
+    handle.draggable = true;
+    handle.addEventListener('dragstart', event => {
+      event.stopPropagation();
+      event.dataTransfer.effectAllowed = 'move';
+      event.dataTransfer.setData('text/plain', String(watch.id));
+    });
+    actions.prepend(handle);
     card.addEventListener('dragover', event => event.preventDefault());
     card.addEventListener('drop', event => {
       event.preventDefault();
