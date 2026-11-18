@@ -50,48 +50,6 @@
     "comment": ""
   },
   {
-    "id": "limited-9",
-    "brand": "Seiko",
-    "collection": "5 Sports × Kosuke Kawamura",
-    "model": "SRPJ41K1",
-    "style": "Statement",
-    "size": "42.5",
-    "description": "Orange and turquoise translucent dial. An experimental casual option best viewed as a single bold accent in a collection.",
-    "image": "https://seikoboutique.com.my/wp-content/uploads/2022/08/SRPJ41K1.png",
-    "source": "https://seikoboutique.com.my/product/srpj41k1/",
-    "status": "Wishlist",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPJ41K1",
-    "specsChecked": "2026-10-30",
-    "specs": {
-      "Movement": "Automatic · 4R36 · 41 hours",
-      "Diameter": "42.5 mm",
-      "Thickness": "13.4 mm",
-      "Crystal": "Hardlex",
-      "Water resistance": "10 bar",
-      "Edition size": "3 000 pieces"
-    },
-    "pros": [
-      "Original artist collaboration",
-      "Colorful design with visible calendar discs"
-    ],
-    "cons": [
-      "Busier visually than your usual preferences",
-      "42.5 × 13.4 mm case; Hardlex"
-    ],
-    "limitedEdition": {
-      "quantity": 3000,
-      "scope": "Worldwide, this reference / colour",
-      "source": "https://seikoboutique.com.my/product/srpj41k1/",
-      "checked": "2026-10-30"
-    },
-    "availability": {
-      "label": "Unavailable at Seiko Boutique Malaysia and IRISIMO",
-      "checked": "2026-10-30"
-    },
-    "price": null,
-    "comment": ""
-  },
-  {
     "id": "limited-1",
     "brand": "Citizen",
     "collection": "TSUYOSA × seconde/seconde/",
@@ -142,105 +100,45 @@
     "comment": ""
   },
   {
-    "id": "current-limited-1",
+    "id": "limited-9",
     "brand": "Seiko",
-    "collection": "Prospex Speedtimer × Datsun",
-    "model": "SSC957P1",
-    "style": "Limited",
-    "size": "—",
-    "description": "Current limited edition. Release date, availability and other unverified details are clearly marked; a manufacturer listing does not guarantee delivery to Lithuania.",
-    "image": "https://www.seikowatches.com/us-en/-/media/Images/Product--Image/All/Seiko/2025/07/17/21/16/SSC957P1/SSC957P1.png?mh=1200&mw=1200",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SSC957P1%20official%20watch",
-    "source": "https://www.seikowatches.com/us-en/products/prospex/ssc957",
-    "status": "Current Limited Edition",
-    "releaseDate": null,
-    "releaseDateStatus": "Exact release date unconfirmed",
-    "specsChecked": "2026-11-03",
+    "collection": "5 Sports × Kosuke Kawamura",
+    "model": "SRPJ41K1",
+    "style": "Statement",
+    "size": "42.5",
+    "description": "Orange and turquoise translucent dial. An experimental casual option best viewed as a single bold accent in a collection.",
+    "image": "https://seikoboutique.com.my/wp-content/uploads/2022/08/SRPJ41K1.png",
+    "source": "https://seikoboutique.com.my/product/srpj41k1/",
+    "status": "Wishlist",
+    "imageSearch": "https://www.google.com/search?tbm=isch&q=Seiko%20SRPJ41K1",
+    "specsChecked": "2026-10-30",
     "specs": {
-      "Release date": "Exact date unconfirmed",
-      "Movement": "Solar chronograph",
-      "Edition size": "4 000 pieces"
+      "Movement": "Automatic · 4R36 · 41 hours",
+      "Diameter": "42.5 mm",
+      "Thickness": "13.4 mm",
+      "Crystal": "Hardlex",
+      "Water resistance": "10 bar",
+      "Edition size": "3 000 pieces"
     },
     "pros": [
-      "Datsun collaboration model",
-      "Solar powered"
+      "Original artist collaboration",
+      "Colorful design with visible calendar discs"
     ],
     "cons": [
-      "Delivery to Lithuania not confirmed"
+      "Busier visually than your usual preferences",
+      "42.5 × 13.4 mm case; Hardlex"
     ],
     "limitedEdition": {
-      "quantity": 4000,
-      "scope": "Worldwide, jei patvirtintas tiražas",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "checked": "2026-11-03"
+      "quantity": 3000,
+      "scope": "Worldwide, this reference / colour",
+      "source": "https://seikoboutique.com.my/product/srpj41k1/",
+      "checked": "2026-10-30"
     },
     "availability": {
-      "label": "Official EU store: available online",
-      "checked": "2026-11-03"
+      "label": "Unavailable at Seiko Boutique Malaysia and IRISIMO",
+      "checked": "2026-10-30"
     },
-    "price": {
-      "amount": 990,
-      "currency": "EUR",
-      "source": "https://www.seikoboutique.eu/at/en/104-limited-editions",
-      "label": "Official list price ↗",
-      "basis": "Manufacturer EU list price; Lithuanian stock unconfirmed",
-      "checked": "2026-11-03",
-      "heading": "LIST PRICE"
-    },
-    "imageVerified": true,
-    "comment": ""
-  },
-  {
-    "id": "current-limited-7",
-    "brand": "Tissot",
-    "collection": "PRX UFO Robot Grendizer 50th Anniversary",
-    "model": "T137.407.33.051.01",
-    "style": "Limited",
-    "size": "40",
-    "description": "Current limited edition. Release date, availability and other unverified details are clearly marked; a manufacturer listing does not guarantee delivery to Lithuania.",
-    "image": "https://www.tissotwatches.com/dw/image/v2/BKKD_PRD/on/demandware.static/-/Sites-Tissot-Catalogue/default/dw96ec3b42/product-pictures/2672bb1a-58ec-4ca0-aa4f-1b299fc802b2_T137-407-33-051-01_shadow.png?sh=1200&sm=cut&sw=1200",
-    "imageSearch": "https://www.google.com/search?tbm=isch&q=Tissot%20T137.407.33.051.01%20official%20watch",
-    "source": "https://www.tissotwatches.com/en-dk/lp-tissot-grendizer.html",
-    "status": "Current Limited Edition",
-    "releaseDate": null,
-    "releaseDateStatus": "Exact release date unconfirmed",
-    "specsChecked": "2026-11-03",
-    "specs": {
-      "Release date": "Exact date unconfirmed",
-      "Movement": "Automatic · Powermatic 80 · 80 hours",
-      "Edition size": "1 975 pieces",
-      "Diameter": "40 mm",
-      "Thickness": "10.93 mm",
-      "Crystal": "Sapphire · AR",
-      "Water resistance": "10 bar"
-    },
-    "pros": [
-      "Limited to 1,975 pieces",
-      "Sapphire crystal and 80-hour power reserve"
-    ],
-    "cons": [
-      "Sold out on official US and Australian pages"
-    ],
-    "limitedEdition": {
-      "quantity": 1975,
-      "scope": "Worldwide, jei patvirtintas tiražas",
-      "source": "https://www.tissotwatches.com/en-dk/lp-tissot-grendizer.html",
-      "checked": "2026-11-03"
-    },
-    "availability": {
-      "label": "Sold out in some markets; Lithuanian stock unconfirmed",
-      "checked": "2026-11-03"
-    },
-    "price": {
-      "amount": 1095,
-      "currency": "EUR",
-      "source": "https://www.tissotwatches.com/en-dk/lp-tissot-grendizer.html",
-      "label": "Official list price ↗",
-      "basis": "Manufacturer EU list price; Lithuanian stock unconfirmed",
-      "checked": "2026-11-03",
-      "heading": "LIST PRICE"
-    },
-    "imageVerified": true,
+    "price": null,
     "comment": ""
   }
 ]
