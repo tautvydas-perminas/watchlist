@@ -3,12 +3,22 @@ import json
 import os
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 import azure.functions as func
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 FILES = {"original": "watches.json", "limited": "watches-limited.json"}
 REPO = "tautvydas-perminas/watchlist"
+EDITOR_ASSETS = Path(__file__).with_name("editor_assets")
+EDITOR_TYPES = {
+    "index.html": "text/html",
+    "styles.css": "text/css",
+    "app.js": "application/javascript",
+    "editor.js": "application/javascript",
+    "editor-config.js": "application/javascript",
+}
+
 
 
 def respond(data, status=200):
@@ -31,13 +41,16 @@ def github(method, path, payload=None):
         return json.load(response)
 
 
-@app.route(route="watchlist/{collection}", methods=["GET", "PUT"])
-def watchlist(req: func.HttpRequest) -> func.HttpResponse:
-    # CRITICAL: configure App Service Authentication to REQUIRE authentication
-    # before deployment. This check is defense in depth, not a substitute.
+def can_edit(req):
+    # App Service Authentication must validate the session and inject this header.
     principal = req.headers.get("X-MS-CLIENT-PRINCIPAL-ID")
     allowed = os.getenv("ALLOWED_PRINCIPAL_ID", "")
-    if not allowed or not principal or principal.lower() != allowed.lower():
+    return bool(allowed and principal and principal.lower() == allowed.lower())
+
+
+@app.route(route="watchlist/{collection}", methods=["GET", "PUT"])
+def watchlist(req: func.HttpRequest) -> func.HttpResponse:
+    if not can_edit(req):
         return respond({"error": "Forbidden"}, 403)
     collection = req.route_params.get("collection")
     if collection not in FILES:
@@ -87,13 +100,34 @@ def watchlist(req: func.HttpRequest) -> func.HttpResponse:
 
 @app.route(route="auth-return", methods=["GET"])
 def auth_return(req: func.HttpRequest) -> func.HttpResponse:
-    # Redirect only to our fixed website origin, never to a user-supplied URL.
-    principal = req.headers.get("X-MS-CLIENT-PRINCIPAL-ID")
-    allowed = os.getenv("ALLOWED_PRINCIPAL_ID", "")
-    if not allowed or not principal or principal.lower() != allowed.lower():
+    if not can_edit(req):
         return respond({"error": "Forbidden"}, 403)
     collection = req.params.get("list", "original")
     if collection not in FILES:
         collection = "original"
-    destination = "https://portfoliomanager.z6.web.core.windows.net/?list=" + collection
+    destination = "/api/editor/index.html?list=" + collection
     return func.HttpResponse("", status_code=302, headers={"Location": destination, "Cache-Control": "no-store"})
+
+
+@app.route(route="editor/{asset}", methods=["GET"])
+def editor(req: func.HttpRequest) -> func.HttpResponse:
+    if not can_edit(req):
+        return respond({"error": "Forbidden"}, 403)
+
+    asset = req.route_params.get("asset")
+    headers = {"Cache-Control": "no-store", "X-Content-Type-Options": "nosniff"}
+    if asset in EDITOR_TYPES:
+        try:
+            content = (EDITOR_ASSETS / asset).read_bytes()
+        except OSError:
+            return respond({"error": "Editor asset unavailable"}, 503)
+        return func.HttpResponse(content, mimetype=EDITOR_TYPES[asset], headers=headers)
+
+    if asset in FILES.values():
+        try:
+            content = base64.b64decode(github("GET", asset)["content"])
+        except (OSError, ValueError, KeyError, TypeError):
+            return respond({"error": "Could not load collection"}, 502)
+        return func.HttpResponse(content, mimetype="application/json", headers=headers)
+
+    return respond({"error": "Unknown editor asset"}, 404)
