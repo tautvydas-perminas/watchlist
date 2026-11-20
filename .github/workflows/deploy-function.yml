@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'api/**'
+      - 'index.html'
+      - 'styles.css'
+      - 'app.js'
+      - 'editor.js'
       - '.github/workflows/deploy-function.yml'
   workflow_dispatch:
 
@@ -30,6 +34,14 @@ jobs:
           python -m compileall -q api
           test -f api/host.json
           test -f api/requirements.txt
+
+      - name: Bundle the editor frontend
+        run: |
+          mkdir -p api/editor_assets
+          cp index.html styles.css app.js editor.js api/editor_assets/
+          printf '%s\n' 'window.WATCHLIST_EDITOR_API = window.location.origin;' > api/editor_assets/editor-config.js
+          node --check api/editor_assets/app.js
+          node --check api/editor_assets/editor.js
 
       - name: Azure login via OIDC
         uses: azure/login@v2
